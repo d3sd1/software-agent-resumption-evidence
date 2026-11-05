@@ -45,6 +45,19 @@ python3 -I experiments/access-analysis/format_publication_tables.py \
 
 It uses the standard library, reads the archived case metadata beside that evaluation, and refuses an existing output directory. Its mean/SD presentation describes five order-paired blocks; it does not create matched provider randomness, population confidence intervals or new participant measurements. `code-manifest.json` identifies this added owned helper separately from files copied byte-identically from the archive.
 
+## Independent public byte audit
+
+Source-code revision `v2.0.2` also supplies an independent standard-library auditor for the public, explicitly derived records:
+
+```sh
+python3 -I -B experiments/access-analysis/audit/public_byte_audit.py \
+  --cohort "$ARCHIVE" --output ./public-byte-audit-new.json --self-test
+```
+
+Set `ARCHIVE` to the extracted v2 package as above. The output must be new and outside that package. The script reconstructs message categories, condition means, the distributed-minus-bundled contrasts and the 447 + 45 + 7 byte decomposition before comparing the preserved evaluation. It verifies the consumed public files, message chains, closures and lifecycle links. Its self-test rejects a same-length one-character message alteration without valid seals. It makes no network, model, collection, preflight or freeze call.
+
+These checks authenticate neither withheld original text nor real argv/provider identity. Public seals establish integrity of the declared derivatives. The separate `audit_cohort.py` source documents the original-record audit; that broader audit also requires withheld raw streams and is **not** the public reproduction entry point. Neither audit is an independent research-team replication. The data archive and experiment instrument remain unchanged by these added audit sources.
+
 ## Outcomes, provenance and limits
 
 The 160-session follow-up contains supported completion in every condition, complete retrieval of all four documents, and no fresh recipient checks. Its interface-byte contrast is explained by serialization overhead and timing-string length, not a demonstrated advantage in release judgment. This does not establish equivalence, population safety, general repair ability or provider-authenticated model identity.

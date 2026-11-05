@@ -874,10 +874,10 @@
       "status": "copied-byte-identical"
     },
     {
-      "bytes": 7110,
+      "bytes": 8437,
       "path": "README.md",
       "role": "new-document",
-      "sha256": "cb2cf5678dc2831683c4ef17d08e04a209e20c3e75305981b10443999b0ebf3f",
+      "sha256": "f1364d9b6cafc14fb1e975ede74d4404eb6c7dcb09500131cdf987fc7866d3a7",
       "source_archive_path": null,
       "source_archive_sha256": null,
       "status": "new-source-only-instructions"
@@ -890,6 +890,24 @@
       "source_archive_sha256": null,
       "status": "new-post-archive-presentation-helper",
       "role": "owned-formatting-only; unchanged archived observations"
+    },
+    {
+      "path": "experiments/access-analysis/audit/audit_cohort.py",
+      "bytes": 37849,
+      "sha256": "3e838f95569c008c33e8f289f2ec52e3cc7b20551f71e36b539294a08ed49106",
+      "source_archive_path": null,
+      "source_archive_sha256": null,
+      "status": "new-post-archive-audit-source",
+      "role": "owned independent audit; public or original-record scope documented"
+    },
+    {
+      "path": "experiments/access-analysis/audit/public_byte_audit.py",
+      "bytes": 23396,
+      "sha256": "0a6ebaef18c5af95cd0b395a3de873fb107b30b7deb7af7239d92dba672bcdad",
+      "source_archive_path": null,
+      "source_archive_sha256": null,
+      "status": "new-post-archive-audit-source",
+      "role": "owned independent audit; public or original-record scope documented"
     }
   ],
   "full_archive_manifest_sha256": "51ef83fa62796bf59353f7a1ef0465d11a7739c2410e52e97d86ca5614648281",
@@ -907,7 +925,9 @@
   "new_payload_files": [
     "README.md",
     "code-manifest.json",
-    "experiments/access-analysis/format_publication_tables.py"
+    "experiments/access-analysis/format_publication_tables.py",
+    "experiments/access-analysis/audit/audit_cohort.py",
+    "experiments/access-analysis/audit/public_byte_audit.py"
   ],
   "schema": "source-only-code-manifest-v1",
   "shared_adapter_note": "Exact frozen common adapter contains eight test classes/cases; only the four listed cases are part of the cohort. No reserve-case source trees are included. All relevant upstream notices remain applicable.",
@@ -1159,6 +1179,6 @@
     }
   ],
   "publication_status_policy": "Hosting record and Git commit establish publication; this manifest identifies code and the verified full archive.",
-  "code_revision": "v2.0.1",
-  "post_archive_change": "Presentation helper only; no instrument, observation, endpoint or archived byte changed."
+  "code_revision": "v2.0.2",
+  "post_archive_change": "Presentation and independent audit sources only; experiment instrument, observations and archived bytes unchanged."
 }
