@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+local-validation/tmp/
+# Large local evidence and source copies require explicit review before publication.
+local-validation/prepared-*/cases/*/before/
+local-validation/prepared-*/cases/*/after/
+local-validation/prepared-*/cases/*/states/*/initial/
+local-validation/controls-*/**/workspace/
+local-validation/controls-*/**/snapshots/
+local-validation/controls-*/**/releases/
+collections/
+capsules/
+RUN-CLAIM.json
+src/graphify-out/
+src/.graphify*

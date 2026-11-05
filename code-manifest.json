@@ -1,0 +1,1152 @@
+{
+  "archive_digest_kind": "SHA-256 of the complete package export-manifest.json; NOT a ZIP-file checksum.",
+  "copied_file_policy": "Every copied source/config/protocol/test/adapter/notice is byte-identical to the same path in the full archive. No wildcard source collection from data trees.",
+  "extended_archive_identifier": {
+    "doi": "10.5281/zenodo.23981216",
+    "version": "2.0.0",
+    "archive_name": "software-agent-resumption-evidence-v2.0.0.zip",
+    "zip_sha256": "e7ed0839e3d4347c9721ad477a0aa4e37cfda5f76cba94e8ece2c92317248f87",
+    "public_download_verified": true
+  },
+  "files": [
+    {
+      "bytes": 1493,
+      "path": "LICENSE",
+      "role": "project-license-or-reproduction-source",
+      "sha256": "718a312b8cff07d78cb222f42b579c6894d7be8001bb230c6f07dff54090d534",
+      "source_archive_path": "LICENSE",
+      "source_archive_sha256": "718a312b8cff07d78cb222f42b579c6894d7be8001bb230c6f07dff54090d534",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 4741,
+      "path": "RIGHTS.md",
+      "role": "project-license-or-reproduction-source",
+      "sha256": "3b13df2c4eef2c55127c5a1bd6469cbee9bc127f6c2b950ae4c8add776bfb6d5",
+      "source_archive_path": "RIGHTS.md",
+      "source_archive_sha256": "3b13df2c4eef2c55127c5a1bd6469cbee9bc127f6c2b950ae4c8add776bfb6d5",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 11875,
+      "path": "access_release_adapter.py",
+      "role": "project-license-or-reproduction-source",
+      "sha256": "e9eb06dd5b18aa0d9e8c9caba5ec6e71514ae822fc87296f8dfad5d98e2c042b",
+      "source_archive_path": "access_release_adapter.py",
+      "source_archive_sha256": "e9eb06dd5b18aa0d9e8c9caba5ec6e71514ae822fc87296f8dfad5d98e2c042b",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1493,
+      "path": "experiments/LICENSE",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "718a312b8cff07d78cb222f42b579c6894d7be8001bb230c6f07dff54090d534",
+      "source_archive_path": "experiments/LICENSE",
+      "source_archive_sha256": "718a312b8cff07d78cb222f42b579c6894d7be8001bb230c6f07dff54090d534",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 10337,
+      "path": "experiments/README.md",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "152bd8133fc854c3e560b543d6799f0500f20e4edb67a06fd6af9f54d3cca875",
+      "source_archive_path": "experiments/README.md",
+      "source_archive_sha256": "152bd8133fc854c3e560b543d6799f0500f20e4edb67a06fd6af9f54d3cca875",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 6575,
+      "path": "experiments/access-analysis/generate_assets.py",
+      "role": "owned-presentation-generator",
+      "sha256": "e2111631807987c29cee0dc2ef80f9beaaf654f8105344889ed68c707b6d6674",
+      "source_archive_path": "experiments/access-analysis/generate_assets.py",
+      "source_archive_sha256": "e2111631807987c29cee0dc2ef80f9beaaf654f8105344889ed68c707b6d6674",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 470,
+      "path": "experiments/access-study/.gitignore",
+      "role": "access-owned-config-or-protocol",
+      "sha256": "118e70eda50af93fc87ba997a65f55a1b36f37366dd30873b8a74a5079ca292c",
+      "source_archive_path": "experiments/access-study/.gitignore",
+      "source_archive_sha256": "118e70eda50af93fc87ba997a65f55a1b36f37366dd30873b8a74a5079ca292c",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 10054,
+      "path": "experiments/access-study/README.md",
+      "role": "access-owned-config-or-protocol",
+      "sha256": "c8358ff5154f87c3c382e082f89d6a7e0b974ed0fa879156d4213b25a594cd32",
+      "source_archive_path": "experiments/access-study/README.md",
+      "source_archive_sha256": "c8358ff5154f87c3c382e082f89d6a7e0b974ed0fa879156d4213b25a594cd32",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 4564,
+      "path": "experiments/access-study/api-contract.json",
+      "role": "access-owned-config-or-protocol",
+      "sha256": "513c8721d2cf3d0390f026841f8e64ca3d373cb791d81bdaf9c82e105aa1a85e",
+      "source_archive_path": "experiments/access-study/api-contract.json",
+      "source_archive_sha256": "513c8721d2cf3d0390f026841f8e64ca3d373cb791d81bdaf9c82e105aa1a85e",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1556,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/dotenv-backslashes/after/notices/LICENSE",
+      "role": "third-party-license-notice",
+      "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/dotenv-backslashes/after/notices/LICENSE",
+      "source_archive_sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1556,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/dotenv-backslashes/before/notices/LICENSE",
+      "role": "third-party-license-notice",
+      "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/dotenv-backslashes/before/notices/LICENSE",
+      "source_archive_sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 9718,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/dotenv-backslashes/tests/adapter.py",
+      "role": "third-party-adapted-tests",
+      "sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/dotenv-backslashes/tests/adapter.py",
+      "source_archive_sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1053,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-large-range/after/notices/LICENSE",
+      "role": "third-party-license-notice",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-large-range/after/notices/LICENSE",
+      "source_archive_sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1053,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-large-range/before/notices/LICENSE",
+      "role": "third-party-license-notice",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-large-range/before/notices/LICENSE",
+      "source_archive_sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 9718,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-large-range/tests/adapter.py",
+      "role": "third-party-adapted-tests",
+      "sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-large-range/tests/adapter.py",
+      "source_archive_sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1053,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-peekable-slice/after/notices/LICENSE",
+      "role": "third-party-license-notice",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-peekable-slice/after/notices/LICENSE",
+      "source_archive_sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1053,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-peekable-slice/before/notices/LICENSE",
+      "role": "third-party-license-notice",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-peekable-slice/before/notices/LICENSE",
+      "source_archive_sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 9718,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-peekable-slice/tests/adapter.py",
+      "role": "third-party-adapted-tests",
+      "sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-peekable-slice/tests/adapter.py",
+      "source_archive_sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 197,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/after/notices/LICENSE",
+      "role": "third-party-license-notice",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/after/notices/LICENSE",
+      "source_archive_sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 10174,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/after/notices/LICENSE.APACHE",
+      "role": "third-party-license-notice",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/after/notices/LICENSE.APACHE",
+      "source_archive_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1344,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/after/notices/LICENSE.BSD",
+      "role": "third-party-license-notice",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/after/notices/LICENSE.BSD",
+      "source_archive_sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 197,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/before/notices/LICENSE",
+      "role": "third-party-license-notice",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/before/notices/LICENSE",
+      "source_archive_sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 10174,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/before/notices/LICENSE.APACHE",
+      "role": "third-party-license-notice",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/before/notices/LICENSE.APACHE",
+      "source_archive_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1344,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/before/notices/LICENSE.BSD",
+      "role": "third-party-license-notice",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/before/notices/LICENSE.BSD",
+      "source_archive_sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 9718,
+      "path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/tests/adapter.py",
+      "role": "third-party-adapted-tests",
+      "sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+      "source_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/tests/adapter.py",
+      "source_archive_sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2380,
+      "path": "experiments/access-study/config.json",
+      "role": "access-owned-config-or-protocol",
+      "sha256": "12518fe5de5e3cad458ca77af47d969916408e0a6039cbbf73a88d3d4362b1d0",
+      "source_archive_path": "experiments/access-study/config.json",
+      "source_archive_sha256": "12518fe5de5e3cad458ca77af47d969916408e0a6039cbbf73a88d3d4362b1d0",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 6855,
+      "path": "experiments/access-study/protocol-review-1.md",
+      "role": "access-owned-config-or-protocol",
+      "sha256": "7836a5d0a58dab7c81f89acfdbc24c3bed708202921f56da3d4d915b4c12189b",
+      "source_archive_path": "experiments/access-study/protocol-review-1.md",
+      "source_archive_sha256": "7836a5d0a58dab7c81f89acfdbc24c3bed708202921f56da3d4d915b4c12189b",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 19895,
+      "path": "experiments/access-study/protocol-v1.md",
+      "role": "access-owned-config-or-protocol",
+      "sha256": "0448d73511049345e6f2184392d0745dbd8055087d0a104904b271e7d79ce651",
+      "source_archive_path": "experiments/access-study/protocol-v1.md",
+      "source_archive_sha256": "0448d73511049345e6f2184392d0745dbd8055087d0a104904b271e7d79ce651",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 318,
+      "path": "experiments/access-study/requirements.txt",
+      "role": "access-owned-config-or-protocol",
+      "sha256": "d91baa76291020d26db6f73702e7e27994f9701eadbea86bc1646535a25708b9",
+      "source_archive_path": "experiments/access-study/requirements.txt",
+      "source_archive_sha256": "d91baa76291020d26db6f73702e7e27994f9701eadbea86bc1646535a25708b9",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 77,
+      "path": "experiments/access-study/src/access_study/__init__.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "73e2081d54fe737c11fda3069b3fe9cae12a9bad621213da869652f6732302af",
+      "source_archive_path": "experiments/access-study/src/access_study/__init__.py",
+      "source_archive_sha256": "73e2081d54fe737c11fda3069b3fe9cae12a9bad621213da869652f6732302af",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2792,
+      "path": "experiments/access-study/src/access_study/check_worker.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "190ed9da39db1747d819a397afc5b27c1e6e411e56115dace0be471b337d2bc3",
+      "source_archive_path": "experiments/access-study/src/access_study/check_worker.py",
+      "source_archive_sha256": "190ed9da39db1747d819a397afc5b27c1e6e411e56115dace0be471b337d2bc3",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 5229,
+      "path": "experiments/access-study/src/access_study/checker.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "0f19720c222dc35202fd9ea3182c54ca6e1647c6c0a7e6bdf5ce5673fd743eff",
+      "source_archive_path": "experiments/access-study/src/access_study/checker.py",
+      "source_archive_sha256": "0f19720c222dc35202fd9ea3182c54ca6e1647c6c0a7e6bdf5ce5673fd743eff",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 8946,
+      "path": "experiments/access-study/src/access_study/cli_bridge.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "4edc36c5aa716d99df099f1d4c9e1f42b6114c63688a48db69e19580404bb65f",
+      "source_archive_path": "experiments/access-study/src/access_study/cli_bridge.py",
+      "source_archive_sha256": "4edc36c5aa716d99df099f1d4c9e1f42b6114c63688a48db69e19580404bb65f",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 3006,
+      "path": "experiments/access-study/src/access_study/common.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "cd05493424236587872dafae8d5044893ef5c68316cb3a7d242346c05311de31",
+      "source_archive_path": "experiments/access-study/src/access_study/common.py",
+      "source_archive_sha256": "cd05493424236587872dafae8d5044893ef5c68316cb3a7d242346c05311de31",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 14660,
+      "path": "experiments/access-study/src/access_study/evaluate.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "2789f3611acbc33bda1685c74ee6bab27f24e706708c88c57bfd97af85b309dd",
+      "source_archive_path": "experiments/access-study/src/access_study/evaluate.py",
+      "source_archive_sha256": "2789f3611acbc33bda1685c74ee6bab27f24e706708c88c57bfd97af85b309dd",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 6310,
+      "path": "experiments/access-study/src/access_study/freeze.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "aaf61f63a1fd431b381ace71b568a94bb84c68d785501927beb274751c9fe7bb",
+      "source_archive_path": "experiments/access-study/src/access_study/freeze.py",
+      "source_archive_sha256": "aaf61f63a1fd431b381ace71b568a94bb84c68d785501927beb274751c9fe7bb",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 4286,
+      "path": "experiments/access-study/src/access_study/gate.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "6090adbd9cc47a0cc136f42a65bd076226bab17970e3d0c76d1cacd3a8032873",
+      "source_archive_path": "experiments/access-study/src/access_study/gate.py",
+      "source_archive_sha256": "6090adbd9cc47a0cc136f42a65bd076226bab17970e3d0c76d1cacd3a8032873",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 13606,
+      "path": "experiments/access-study/src/access_study/harness.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "ec8d18d030575cf083b77711e0ae59a9b3e1da2a1ae574161bfbe469982c72ec",
+      "source_archive_path": "experiments/access-study/src/access_study/harness.py",
+      "source_archive_sha256": "ec8d18d030575cf083b77711e0ae59a9b3e1da2a1ae574161bfbe469982c72ec",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 7785,
+      "path": "experiments/access-study/src/access_study/messages.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "8fc0f0275da5adce57ad1c9c5cef385a3665dbc60e389ff098706dfef9a17c1c",
+      "source_archive_path": "experiments/access-study/src/access_study/messages.py",
+      "source_archive_sha256": "8fc0f0275da5adce57ad1c9c5cef385a3665dbc60e389ff098706dfef9a17c1c",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 10907,
+      "path": "experiments/access-study/src/access_study/oracle.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "1c2ef58960968a3047235d9d79f878a96510ee0d2b73b0b14590625ac431abac",
+      "source_archive_path": "experiments/access-study/src/access_study/oracle.py",
+      "source_archive_sha256": "1c2ef58960968a3047235d9d79f878a96510ee0d2b73b0b14590625ac431abac",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 7008,
+      "path": "experiments/access-study/src/access_study/policies.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "51dafd77c398a04845653896a20f1294565761d7bec78dc2a2b02a8648fd1ece",
+      "source_archive_path": "experiments/access-study/src/access_study/policies.py",
+      "source_archive_sha256": "51dafd77c398a04845653896a20f1294565761d7bec78dc2a2b02a8648fd1ece",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 10946,
+      "path": "experiments/access-study/src/access_study/prepare.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "658ce87500204d6f33a5ad3ace7142f30e512346e9be813006f096623f534b41",
+      "source_archive_path": "experiments/access-study/src/access_study/prepare.py",
+      "source_archive_sha256": "658ce87500204d6f33a5ad3ace7142f30e512346e9be813006f096623f534b41",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 7031,
+      "path": "experiments/access-study/src/access_study/run_all.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "d13475973a911536912b41444a62a032c588457fa28cdfa37039e84bce9add4c",
+      "source_archive_path": "experiments/access-study/src/access_study/run_all.py",
+      "source_archive_sha256": "d13475973a911536912b41444a62a032c588457fa28cdfa37039e84bce9add4c",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 4623,
+      "path": "experiments/access-study/src/access_study/session.py",
+      "role": "access-owned-implementation-or-auditor",
+      "sha256": "9fb006475d5244d28d38be3bf72f2d5d92759c83125820d009a446df99b8b887",
+      "source_archive_path": "experiments/access-study/src/access_study/session.py",
+      "source_archive_sha256": "9fb006475d5244d28d38be3bf72f2d5d92759c83125820d009a446df99b8b887",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 4396,
+      "path": "experiments/access-study/study.py",
+      "role": "access-owned-config-or-protocol",
+      "sha256": "9630290cf723c4452fea9460e86ed3c313896e1091262f324f8368245df4a31a",
+      "source_archive_path": "experiments/access-study/study.py",
+      "source_archive_sha256": "9630290cf723c4452fea9460e86ed3c313896e1091262f324f8368245df4a31a",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2040,
+      "path": "experiments/access-study/tests/fake_transport.py",
+      "role": "access-synthetic-test-or-fake-transport",
+      "sha256": "6238d548fa1eeb5749bd437ccbaf647bf62a2fc555f61ca1bf659de5b15cccf2",
+      "source_archive_path": "experiments/access-study/tests/fake_transport.py",
+      "source_archive_sha256": "6238d548fa1eeb5749bd437ccbaf647bf62a2fc555f61ca1bf659de5b15cccf2",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 12477,
+      "path": "experiments/access-study/tests/test_audit_closure.py",
+      "role": "access-synthetic-test-or-fake-transport",
+      "sha256": "47c2a5f0457a22f9890998cd9d90f7395dbbfa985a8afd6796f57116485b0778",
+      "source_archive_path": "experiments/access-study/tests/test_audit_closure.py",
+      "source_archive_sha256": "47c2a5f0457a22f9890998cd9d90f7395dbbfa985a8afd6796f57116485b0778",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 29712,
+      "path": "experiments/access-study/tests/test_instrument.py",
+      "role": "access-synthetic-test-or-fake-transport",
+      "sha256": "5ce81e34d342de051eb288e7f77c0160b4309c4e3a6788809bd7b56f2f76c858",
+      "source_archive_path": "experiments/access-study/tests/test_instrument.py",
+      "source_archive_sha256": "5ce81e34d342de051eb288e7f77c0160b4309c4e3a6788809bd7b56f2f76c858",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 7152,
+      "path": "experiments/access-study/tests/test_scheduler.py",
+      "role": "access-synthetic-test-or-fake-transport",
+      "sha256": "9f2987cd7127849bf802bf7086256f54016fd58e9d453cc3bc505ae93805142b",
+      "source_archive_path": "experiments/access-study/tests/test_scheduler.py",
+      "source_archive_sha256": "9f2987cd7127849bf802bf7086256f54016fd58e9d453cc3bc505ae93805142b",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 3058,
+      "path": "experiments/access-study/tools/hygiene.py",
+      "role": "archived-owned-tool-not-executed",
+      "sha256": "a74b8c6e0ae95ca1491cc9728f9b976927be80dee4048c40308296c7b4b6d771",
+      "source_archive_path": "experiments/access-study/tools/hygiene.py",
+      "source_archive_sha256": "a74b8c6e0ae95ca1491cc9728f9b976927be80dee4048c40308296c7b4b6d771",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 4377,
+      "path": "experiments/aggregate_phases.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "1e7c60410d7c2442bb88de9ea2a69c4116b7fe228460df25b18c0b1be98562fd",
+      "source_archive_path": "experiments/aggregate_phases.py",
+      "source_archive_sha256": "1e7c60410d7c2442bb88de9ea2a69c4116b7fe228460df25b18c0b1be98562fd",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 5047,
+      "path": "experiments/analyze_action_paths.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "d5d5c77f7f7efdf94e8dd079583774a978d3a97c599a78cc76b039684d504420",
+      "source_archive_path": "experiments/analyze_action_paths.py",
+      "source_archive_sha256": "d5d5c77f7f7efdf94e8dd079583774a978d3a97c599a78cc76b039684d504420",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2132,
+      "path": "experiments/checker.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "17631a200e4d34d06a540c1c4921964a9ce56df8d4c172e89de1775d251a2ca5",
+      "source_archive_path": "experiments/checker.py",
+      "source_archive_sha256": "17631a200e4d34d06a540c1c4921964a9ce56df8d4c172e89de1775d251a2ca5",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 7318,
+      "path": "experiments/cli_bridge.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "3b0d85ea51b38bc8813d6f6bff6739f9da22a630bdaf95855ad1b6208240aa21",
+      "source_archive_path": "experiments/cli_bridge.py",
+      "source_archive_sha256": "3b0d85ea51b38bc8813d6f6bff6739f9da22a630bdaf95855ad1b6208240aa21",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1241,
+      "path": "experiments/common.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "73dbe34aedb1eef20b62250a396774ad43eeb6c675120e3af01169173f8fc1c1",
+      "source_archive_path": "experiments/common.py",
+      "source_archive_sha256": "73dbe34aedb1eef20b62250a396774ad43eeb6c675120e3af01169173f8fc1c1",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2700,
+      "path": "experiments/config.json",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "c52313006e48e06e664ea883a4a209b2ef79fe9cb326c3c7757d204386b904ef",
+      "source_archive_path": "experiments/config.json",
+      "source_archive_sha256": "c52313006e48e06e664ea883a4a209b2ef79fe9cb326c3c7757d204386b904ef",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1808,
+      "path": "experiments/controls.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "ed15595c04a87b299dc1ce81d7b6ef948f54049e296840858e46abcd520b4d1a",
+      "source_archive_path": "experiments/controls.py",
+      "source_archive_sha256": "ed15595c04a87b299dc1ce81d7b6ef948f54049e296840858e46abcd520b4d1a",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 17857,
+      "path": "experiments/evaluate.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "1f8ecb51180c3e150c8ed255561bedf4fbd40a1ee0d6cdf87d1cac76e81d103b",
+      "source_archive_path": "experiments/evaluate.py",
+      "source_archive_sha256": "1f8ecb51180c3e150c8ed255561bedf4fbd40a1ee0d6cdf87d1cac76e81d103b",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 7125,
+      "path": "experiments/expansion/README.md",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "bf437be0e04c1e091c13e578937c402293a606d4e0e213db6069b9bbd60d35b6",
+      "source_archive_path": "experiments/expansion/README.md",
+      "source_archive_sha256": "bf437be0e04c1e091c13e578937c402293a606d4e0e213db6069b9bbd60d35b6",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2134,
+      "path": "experiments/expansion/checker.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "78a391df9af335d4b0896b1dd23a04e8c12a57756058e8d34e6ded12aa1e55cc",
+      "source_archive_path": "experiments/expansion/checker.py",
+      "source_archive_sha256": "78a391df9af335d4b0896b1dd23a04e8c12a57756058e8d34e6ded12aa1e55cc",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 7318,
+      "path": "experiments/expansion/cli_bridge.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "3b0d85ea51b38bc8813d6f6bff6739f9da22a630bdaf95855ad1b6208240aa21",
+      "source_archive_path": "experiments/expansion/cli_bridge.py",
+      "source_archive_sha256": "3b0d85ea51b38bc8813d6f6bff6739f9da22a630bdaf95855ad1b6208240aa21",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 1241,
+      "path": "experiments/expansion/common.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "73dbe34aedb1eef20b62250a396774ad43eeb6c675120e3af01169173f8fc1c1",
+      "source_archive_path": "experiments/expansion/common.py",
+      "source_archive_sha256": "73dbe34aedb1eef20b62250a396774ad43eeb6c675120e3af01169173f8fc1c1",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 5555,
+      "path": "experiments/expansion/config-v2.json",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "36183b94eccda3a37cf5c63530b5a449b8522535fef48dfb3595f4f786d79447",
+      "source_archive_path": "experiments/expansion/config-v2.json",
+      "source_archive_sha256": "36183b94eccda3a37cf5c63530b5a449b8522535fef48dfb3595f4f786d79447",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2725,
+      "path": "experiments/expansion/controls.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "4bb3ee8ba9d867f23f4afcb7337dc584f56e655ca335fbe6982a2eee95cefdaa",
+      "source_archive_path": "experiments/expansion/controls.py",
+      "source_archive_sha256": "4bb3ee8ba9d867f23f4afcb7337dc584f56e655ca335fbe6982a2eee95cefdaa",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 4356,
+      "path": "experiments/expansion/deterministic_reference.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "f2588b8f8171f50aab9e31ae2da6b8c4d48188de7a1e3c84c12c04ec76b0ba24",
+      "source_archive_path": "experiments/expansion/deterministic_reference.py",
+      "source_archive_sha256": "f2588b8f8171f50aab9e31ae2da6b8c4d48188de7a1e3c84c12c04ec76b0ba24",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2235,
+      "path": "experiments/expansion/domain.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "aa5263653c81dc53b31c6c84d7673e6ad5c418afa1c3e79ebe7c0f618a3c672b",
+      "source_archive_path": "experiments/expansion/domain.py",
+      "source_archive_sha256": "aa5263653c81dc53b31c6c84d7673e6ad5c418afa1c3e79ebe7c0f618a3c672b",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 13141,
+      "path": "experiments/expansion/evaluate.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "2be331740bd305a86577d6dfc68cde575584cbc5d8bcb3654f62b2e2d356a953",
+      "source_archive_path": "experiments/expansion/evaluate.py",
+      "source_archive_sha256": "2be331740bd305a86577d6dfc68cde575584cbc5d8bcb3654f62b2e2d356a953",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 5920,
+      "path": "experiments/expansion/expanded-results.schema.json",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "5df2852d75a783e6653c7488a69879095fd98d932c6ceaadcd2ab0632bf094df",
+      "source_archive_path": "experiments/expansion/expanded-results.schema.json",
+      "source_archive_sha256": "5df2852d75a783e6653c7488a69879095fd98d932c6ceaadcd2ab0632bf094df",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 5437,
+      "path": "experiments/expansion/fixture-manifest-v2.json",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "125d66f89529eeb4adbcdf00ad29f6be6c97d9f342eb0b5d3b9883bd4623d2f6",
+      "source_archive_path": "experiments/expansion/fixture-manifest-v2.json",
+      "source_archive_sha256": "125d66f89529eeb4adbcdf00ad29f6be6c97d9f342eb0b5d3b9883bd4623d2f6",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 13822,
+      "path": "experiments/expansion/harness.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "c422b776a6607c6ffe0a30bac67382633b9140e450cc2b90e5e1355d04fe5d19",
+      "source_archive_path": "experiments/expansion/harness.py",
+      "source_archive_sha256": "c422b776a6607c6ffe0a30bac67382633b9140e450cc2b90e5e1355d04fe5d19",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2369,
+      "path": "experiments/expansion/mcp_server.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "bc82d50a33abe37c5af0457f57561cec7a6300165d8fcab3a7a1e14324e26dc1",
+      "source_archive_path": "experiments/expansion/mcp_server.py",
+      "source_archive_sha256": "bc82d50a33abe37c5af0457f57561cec7a6300165d8fcab3a7a1e14324e26dc1",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 5207,
+      "path": "experiments/expansion/oracle.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "1d39f4c49d4b4c5b554069bbd338525b041e6d432e53fbbbb859c6b1596cb4c2",
+      "source_archive_path": "experiments/expansion/oracle.py",
+      "source_archive_sha256": "1d39f4c49d4b4c5b554069bbd338525b041e6d432e53fbbbb859c6b1596cb4c2",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 8157,
+      "path": "experiments/expansion/prepare.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "f596a195448753d7a743cc0fd7d2acce02c6288588df1b853882360fbb4f1469",
+      "source_archive_path": "experiments/expansion/prepare.py",
+      "source_archive_sha256": "f596a195448753d7a743cc0fd7d2acce02c6288588df1b853882360fbb4f1469",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 217,
+      "path": "experiments/expansion/requirements.txt",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "c85ac40070971ca17f0e61933d85499b0c1e6ad8391ae5ad47e095fcc8a2a3d3",
+      "source_archive_path": "experiments/expansion/requirements.txt",
+      "source_archive_sha256": "c85ac40070971ca17f0e61933d85499b0c1e6ad8391ae5ad47e095fcc8a2a3d3",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 7823,
+      "path": "experiments/expansion/run_all.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "ad00320db1228db3fb0d2ec556af3e145f1e0965cfbc8d29f4c3afe30d1af7c5",
+      "source_archive_path": "experiments/expansion/run_all.py",
+      "source_archive_sha256": "ad00320db1228db3fb0d2ec556af3e145f1e0965cfbc8d29f4c3afe30d1af7c5",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 5120,
+      "path": "experiments/expansion/session.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "983a24eff70cf3ba9c26bca26560ed0e1388e86a5299f3523bec13bd495ba035",
+      "source_archive_path": "experiments/expansion/session.py",
+      "source_archive_sha256": "983a24eff70cf3ba9c26bca26560ed0e1388e86a5299f3523bec13bd495ba035",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 14225,
+      "path": "experiments/expansion/tests.py",
+      "role": "expansion-implementation-config-or-schema",
+      "sha256": "7463dc9f76e90523265ac738f76120e5e424aa47340f4a3a303d8ee99e1a3695",
+      "source_archive_path": "experiments/expansion/tests.py",
+      "source_archive_sha256": "7463dc9f76e90523265ac738f76120e5e424aa47340f4a3a303d8ee99e1a3695",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 14189,
+      "path": "experiments/generate_figures.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "b216a64df57fcb93e4e5446c378e025e91eb05dfb5835594a945b47af1d374c0",
+      "source_archive_path": "experiments/generate_figures.py",
+      "source_archive_sha256": "b216a64df57fcb93e4e5446c378e025e91eb05dfb5835594a945b47af1d374c0",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 4167,
+      "path": "experiments/generate_fixtures.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "e4b14d99fb426392ba9b1a18b90dda6c4ec54ea23c23daa75bbb079e77ba36eb",
+      "source_archive_path": "experiments/generate_fixtures.py",
+      "source_archive_sha256": "e4b14d99fb426392ba9b1a18b90dda6c4ec54ea23c23daa75bbb079e77ba36eb",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 13918,
+      "path": "experiments/harness.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "abcf13c2561d67d72d246d185409ae771957e951fcb8fe4ba6039596a31eee02",
+      "source_archive_path": "experiments/harness.py",
+      "source_archive_sha256": "abcf13c2561d67d72d246d185409ae771957e951fcb8fe4ba6039596a31eee02",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 3800,
+      "path": "experiments/mcp_server.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "a079e980d467291878fdbd8c7194e8b96a4d97781e69572c56e13ef6644fe52f",
+      "source_archive_path": "experiments/mcp_server.py",
+      "source_archive_sha256": "a079e980d467291878fdbd8c7194e8b96a4d97781e69572c56e13ef6644fe52f",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 4362,
+      "path": "experiments/measurement-validation/cases-corrected.json",
+      "role": "controlled-validation-source-or-synthetic-spec",
+      "sha256": "7253a160867d43411cdb511736214f76baa06285962d5092e40e52baf533dfa4",
+      "source_archive_path": "experiments/measurement-validation/cases-corrected.json",
+      "source_archive_sha256": "7253a160867d43411cdb511736214f76baa06285962d5092e40e52baf533dfa4",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 8040,
+      "path": "experiments/measurement-validation/cases.json",
+      "role": "controlled-validation-source-or-synthetic-spec",
+      "sha256": "78dd693572692edeeb14553b2c6e53d7bbd870749474dd9788a35f6557fbf549",
+      "source_archive_path": "experiments/measurement-validation/cases.json",
+      "source_archive_sha256": "78dd693572692edeeb14553b2c6e53d7bbd870749474dd9788a35f6557fbf549",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 5014,
+      "path": "experiments/measurement-validation/controls_corrected.py",
+      "role": "controlled-validation-source-or-synthetic-spec",
+      "sha256": "e4f0e3c82d30fb84382d51960a3eeffb7a4e3b54833b5899f74c9dcb4e6fd0c8",
+      "source_archive_path": "experiments/measurement-validation/controls_corrected.py",
+      "source_archive_sha256": "e4f0e3c82d30fb84382d51960a3eeffb7a4e3b54833b5899f74c9dcb4e6fd0c8",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 10114,
+      "path": "experiments/measurement-validation/focused_tests.py",
+      "role": "controlled-validation-source-or-synthetic-spec",
+      "sha256": "607ad43ad5d47b2b197bfed438328d8f00241d437525e02cfd3fb2b465e74a53",
+      "source_archive_path": "experiments/measurement-validation/focused_tests.py",
+      "source_archive_sha256": "607ad43ad5d47b2b197bfed438328d8f00241d437525e02cfd3fb2b465e74a53",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 31568,
+      "path": "experiments/measurement-validation/run_corrected.py",
+      "role": "controlled-validation-source-or-synthetic-spec",
+      "sha256": "5ff837d506c0ed2fc05e888f85b2d626541a53310c1285dbc298a81481695b84",
+      "source_archive_path": "experiments/measurement-validation/run_corrected.py",
+      "source_archive_sha256": "5ff837d506c0ed2fc05e888f85b2d626541a53310c1285dbc298a81481695b84",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 22497,
+      "path": "experiments/measurement-validation/run_validation.py",
+      "role": "controlled-validation-source-or-synthetic-spec",
+      "sha256": "eda09c3944727039347c18a4ddd378db2dcac9320bc7f9d6a16b677cf1a7a633",
+      "source_archive_path": "experiments/measurement-validation/run_validation.py",
+      "source_archive_sha256": "eda09c3944727039347c18a4ddd378db2dcac9320bc7f9d6a16b677cf1a7a633",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 6941,
+      "path": "experiments/pilot-plan.md",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "cf0f0c952eec77aadd86ccf773d1e2868c398935a233b2ee16e3e537746da77a",
+      "source_archive_path": "experiments/pilot-plan.md",
+      "source_archive_sha256": "cf0f0c952eec77aadd86ccf773d1e2868c398935a233b2ee16e3e537746da77a",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 3380,
+      "path": "experiments/reproduce_offline.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "da75180fa070ec6e53b5bda2628fa2d9eb3c1c4224fdde366008d71ffe5f39bd",
+      "source_archive_path": "experiments/reproduce_offline.py",
+      "source_archive_sha256": "da75180fa070ec6e53b5bda2628fa2d9eb3c1c4224fdde366008d71ffe5f39bd",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 217,
+      "path": "experiments/requirements.txt",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "1e0ba59fd606227071968924816e35a05f7c141dbc3726f205210f409bfe2a37",
+      "source_archive_path": "experiments/requirements.txt",
+      "source_archive_sha256": "1e0ba59fd606227071968924816e35a05f7c141dbc3726f205210f409bfe2a37",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 9526,
+      "path": "experiments/run_all.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "a497025042d08456631be47b73892f167d1ef4d775ce6661912e771fd444d0f2",
+      "source_archive_path": "experiments/run_all.py",
+      "source_archive_sha256": "a497025042d08456631be47b73892f167d1ef4d775ce6661912e771fd444d0f2",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 2087,
+      "path": "experiments/test_phase_summary.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "a74f373d3f1455aeb930e121af1b15766f0867c4dd074bc33428627e1ad233ba",
+      "source_archive_path": "experiments/test_phase_summary.py",
+      "source_archive_sha256": "a74f373d3f1455aeb930e121af1b15766f0867c4dd074bc33428627e1ad233ba",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 10390,
+      "path": "experiments/tests.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "0982fdef6adefb9dc256e04e8dc97a522550cd9aa53edbdd7824b40032445741",
+      "source_archive_path": "experiments/tests.py",
+      "source_archive_sha256": "0982fdef6adefb9dc256e04e8dc97a522550cd9aa53edbdd7824b40032445741",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 7147,
+      "path": "experiments/tests_audit_fixes.py",
+      "role": "historical-implementation-config-or-protocol",
+      "sha256": "8ac494d946c5b80a9ba2aa2ed42c2be4e7f213ff614a91ffd5de3a05a0d5eff3",
+      "source_archive_path": "experiments/tests_audit_fixes.py",
+      "source_archive_sha256": "8ac494d946c5b80a9ba2aa2ed42c2be4e7f213ff614a91ffd5de3a05a0d5eff3",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 20527,
+      "path": "reproduce_historical.py",
+      "role": "project-license-or-reproduction-source",
+      "sha256": "90f295e84c45a827200cad2c9b3cc807500f43b221b0347f8349ff144940c951",
+      "source_archive_path": "reproduce_historical.py",
+      "source_archive_sha256": "90f295e84c45a827200cad2c9b3cc807500f43b221b0347f8349ff144940c951",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 6011,
+      "path": "reproduce_offline.py",
+      "role": "project-license-or-reproduction-source",
+      "sha256": "d6122fc3ddae0e1cb3219ce76fc4298872a8068ad498fb54aca89aa61c2f781e",
+      "source_archive_path": "reproduce_offline.py",
+      "source_archive_sha256": "d6122fc3ddae0e1cb3219ce76fc4298872a8068ad498fb54aca89aa61c2f781e",
+      "status": "copied-byte-identical"
+    },
+    {
+      "bytes": 5820,
+      "path": "README.md",
+      "role": "new-document",
+      "sha256": "b82c8552eafc49aa72ac581b3c9c88dc31a8c8a3328c43237e97764348f45f14",
+      "source_archive_path": null,
+      "source_archive_sha256": null,
+      "status": "new-source-only-instructions"
+    }
+  ],
+  "full_archive_manifest_sha256": "51ef83fa62796bf59353f7a1ef0465d11a7739c2410e52e97d86ca5614648281",
+  "full_reproduction": "Download the matching versioned Zenodo ZIP and run its own README/reproducer in a separate extracted directory; cloning this code-only tree does not download data.",
+  "git_ignore_note": "The unchanged access-study .gitignore ignores capsules/. Explicit allowlisted adapter/notice paths require explicit staging by the coordinator; never add entire capsule/data trees.",
+  "known_prior_archive": {
+    "doi": "10.5281/zenodo.23977097",
+    "git_commit": "1d7c34f5f351708e53c2d220137f3fa01bf737f2",
+    "git_tag": "v1.0.0",
+    "includes_access_cohort": false,
+    "version": "v1"
+  },
+  "manifest_self_hash": "This file is excluded from its own files hash list to avoid recursion. The separate local scanned-file-list includes its exact final hash.",
+  "new_observations": false,
+  "new_payload_files": [
+    "README.md",
+    "code-manifest.json"
+  ],
+  "schema": "source-only-code-manifest-v1",
+  "shared_adapter_note": "Exact frozen common adapter contains eight test classes/cases; only the four listed cases are part of the cohort. No reserve-case source trees are included. All relevant upstream notices remain applicable.",
+  "status": "SOURCE_ONLY_MATCHING_ARCHIVED_V2",
+  "third_party_origins_and_licenses": [
+    {
+      "after": "959bb79c06cb883bf1ecd1ddc94a079294907e0f",
+      "before": "d17cfaf0b77a5690f03087359e7c8d665a3c728d",
+      "case": "packaging-sibling-errors",
+      "case_metadata_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/packaging-sibling-errors/case.json",
+      "case_metadata_archive_sha256": "c016a2825da01a75dc4e665be144ab3c7c5041cef3c15893fef61ae26561a9c8",
+      "license": [
+        {
+          "case": "packaging-sibling-errors",
+          "conditions": "retain copyright, license conditions and disclaimers; BSD-3-Clause also prohibits endorsement without permission",
+          "license_files": [
+            {
+              "path": "downloads/packaging-sibling-errors/before/tree/LICENSE",
+              "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+            },
+            {
+              "path": "downloads/packaging-sibling-errors/before/tree/LICENSE.BSD",
+              "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+            },
+            {
+              "path": "downloads/packaging-sibling-errors/before/tree/LICENSE.APACHE",
+              "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+            }
+          ],
+          "redistribution_route": "BSD-2-Clause",
+          "scope": "project source/test files; public issue/PR text is provenance, not automatically relicensed under the software license",
+          "snapshot": "before",
+          "upstream_license_expression": "Apache-2.0 OR BSD-2-Clause"
+        },
+        {
+          "case": "packaging-sibling-errors",
+          "conditions": "retain copyright, license conditions and disclaimers; BSD-3-Clause also prohibits endorsement without permission",
+          "license_files": [
+            {
+              "path": "downloads/packaging-sibling-errors/after/tree/LICENSE",
+              "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+            },
+            {
+              "path": "downloads/packaging-sibling-errors/after/tree/LICENSE.BSD",
+              "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+            },
+            {
+              "path": "downloads/packaging-sibling-errors/after/tree/LICENSE.APACHE",
+              "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+            }
+          ],
+          "redistribution_route": "BSD-2-Clause",
+          "scope": "project source/test files; public issue/PR text is provenance, not automatically relicensed under the software license",
+          "snapshot": "after",
+          "upstream_license_expression": "Apache-2.0 OR BSD-2-Clause"
+        }
+      ],
+      "repo": "pypa/packaging",
+      "tests": {
+        "adaptation": "stdlib unittest; pytest parameters -> subTests; tmp_path -> TemporaryDirectory in /tmp; imports from exact read-only /source; focused subset, not full suite",
+        "adapter": "tools/adapters.py",
+        "adapter_sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+        "upstream_locations": [
+          {
+            "end_line": 555,
+            "file": "tests/test_dependency_groups.py",
+            "function": "test_diamond_shaped_dependencies_result_in_one_error",
+            "sha256": "e391a8d9569f5421ce7e40bc54d471bd778173ad0b6d9df60c98fb4c9de6eebb",
+            "start_line": 546,
+            "url": "https://github.com/pypa/packaging/blob/959bb79c06cb883bf1ecd1ddc94a079294907e0f/tests/test_dependency_groups.py#L546-L555"
+          },
+          {
+            "end_line": 571,
+            "file": "tests/test_dependency_groups.py",
+            "function": "test_error_in_later_sibling_include_is_collected",
+            "sha256": "e391a8d9569f5421ce7e40bc54d471bd778173ad0b6d9df60c98fb4c9de6eebb",
+            "start_line": 558,
+            "url": "https://github.com/pypa/packaging/blob/959bb79c06cb883bf1ecd1ddc94a079294907e0f/tests/test_dependency_groups.py#L558-L571"
+          }
+        ]
+      }
+    },
+    {
+      "after": "c629214760c78c0a2235e896d335cccfb3a64466",
+      "before": "08dca284ba5446a026afdc34067b658f9da989eb",
+      "case": "itertools-large-range",
+      "case_metadata_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-large-range/case.json",
+      "case_metadata_archive_sha256": "87caff742554a2c7a1cf48046f99a61065567a1d5b4ef33f961ee851634a80cb",
+      "license": [
+        {
+          "case": "itertools-large-range",
+          "conditions": "retain copyright, license conditions and disclaimers; BSD-3-Clause also prohibits endorsement without permission",
+          "license_files": [
+            {
+              "path": "downloads/itertools-large-range/before/tree/LICENSE",
+              "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+            }
+          ],
+          "redistribution_route": "MIT",
+          "scope": "project source/test files; public issue/PR text is provenance, not automatically relicensed under the software license",
+          "snapshot": "before",
+          "upstream_license_expression": "MIT"
+        },
+        {
+          "case": "itertools-large-range",
+          "conditions": "retain copyright, license conditions and disclaimers; BSD-3-Clause also prohibits endorsement without permission",
+          "license_files": [
+            {
+              "path": "downloads/itertools-large-range/after/tree/LICENSE",
+              "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+            }
+          ],
+          "redistribution_route": "MIT",
+          "scope": "project source/test files; public issue/PR text is provenance, not automatically relicensed under the software license",
+          "snapshot": "after",
+          "upstream_license_expression": "MIT"
+        }
+      ],
+      "repo": "more-itertools/more-itertools",
+      "tests": {
+        "adaptation": "stdlib unittest; pytest parameters -> subTests; tmp_path -> TemporaryDirectory in /tmp; imports from exact read-only /source; focused subset, not full suite",
+        "adapter": "tools/adapters.py",
+        "adapter_sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+        "upstream_locations": [
+          {
+            "end_line": 3032,
+            "file": "tests/test_more.py",
+            "function": "test_eq_above_maxsize",
+            "sha256": "7ed775cb9dd3e2cfdd82d83b025026d82ff6268d667e3866ab9bc6655e5b7307",
+            "start_line": 3017,
+            "url": "https://github.com/more-itertools/more-itertools/blob/c629214760c78c0a2235e896d335cccfb3a64466/tests/test_more.py#L3017-L3032"
+          },
+          {
+            "end_line": 3043,
+            "file": "tests/test_more.py",
+            "function": "test_hash_above_maxsize",
+            "sha256": "7ed775cb9dd3e2cfdd82d83b025026d82ff6268d667e3866ab9bc6655e5b7307",
+            "start_line": 3034,
+            "url": "https://github.com/more-itertools/more-itertools/blob/c629214760c78c0a2235e896d335cccfb3a64466/tests/test_more.py#L3034-L3043"
+          }
+        ]
+      }
+    },
+    {
+      "after": "e6ce1b0f65a57c459fc5004ad84158447b65b0ac",
+      "before": "b21ec4ee8e139ebe297e2221980a694bebb69523",
+      "case": "itertools-peekable-slice",
+      "case_metadata_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/itertools-peekable-slice/case.json",
+      "case_metadata_archive_sha256": "ad77b79818a0893967a9373fc2f36dad9358ff2aa00b2edff12252326614693d",
+      "license": [
+        {
+          "case": "itertools-peekable-slice",
+          "conditions": "retain copyright, license conditions and disclaimers; BSD-3-Clause also prohibits endorsement without permission",
+          "license_files": [
+            {
+              "path": "downloads/itertools-peekable-slice/before/tree/LICENSE",
+              "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+            }
+          ],
+          "redistribution_route": "MIT",
+          "scope": "project source/test files; public issue/PR text is provenance, not automatically relicensed under the software license",
+          "snapshot": "before",
+          "upstream_license_expression": "MIT"
+        },
+        {
+          "case": "itertools-peekable-slice",
+          "conditions": "retain copyright, license conditions and disclaimers; BSD-3-Clause also prohibits endorsement without permission",
+          "license_files": [
+            {
+              "path": "downloads/itertools-peekable-slice/after/tree/LICENSE",
+              "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+            }
+          ],
+          "redistribution_route": "MIT",
+          "scope": "project source/test files; public issue/PR text is provenance, not automatically relicensed under the software license",
+          "snapshot": "after",
+          "upstream_license_expression": "MIT"
+        }
+      ],
+      "repo": "more-itertools/more-itertools",
+      "tests": {
+        "adaptation": "stdlib unittest; pytest parameters -> subTests; tmp_path -> TemporaryDirectory in /tmp; imports from exact read-only /source; focused subset, not full suite",
+        "adapter": "tools/adapters.py",
+        "adapter_sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+        "upstream_locations": [
+          {
+            "end_line": 354,
+            "file": "tests/test_more.py",
+            "function": "test_slicing_negative_step_omitted_stop",
+            "sha256": "e1d9c5d26b19a6a323f197dc37571704b075182f47cb16db09e9361c41b3bf3e",
+            "start_line": 343,
+            "url": "https://github.com/more-itertools/more-itertools/blob/e6ce1b0f65a57c459fc5004ad84158447b65b0ac/tests/test_more.py#L343-L354"
+          }
+        ]
+      }
+    },
+    {
+      "after": "f7b18d9c72d1abcc2ad4023424b84f5bee30d266",
+      "before": "751f8c148222e58aa173c83c4e5e6cfccb2cc124",
+      "case": "dotenv-backslashes",
+      "case_metadata_archive_path": "experiments/access-study/capsules/cohort-001/prepared/cases/dotenv-backslashes/case.json",
+      "case_metadata_archive_sha256": "fd574f5ca28895dd1fedf1d10e4f4c6796f3932568cea1c3da2a34da0c151144",
+      "license": [
+        {
+          "case": "dotenv-backslashes",
+          "conditions": "retain copyright, license conditions and disclaimers; BSD-3-Clause also prohibits endorsement without permission",
+          "license_files": [
+            {
+              "path": "downloads/dotenv-backslashes/before-safe/tree/LICENSE",
+              "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9"
+            }
+          ],
+          "redistribution_route": "BSD-3-Clause",
+          "scope": "project source/test files; public issue/PR text is provenance, not automatically relicensed under the software license",
+          "snapshot": "before",
+          "upstream_license_expression": "BSD-3-Clause"
+        },
+        {
+          "case": "dotenv-backslashes",
+          "conditions": "retain copyright, license conditions and disclaimers; BSD-3-Clause also prohibits endorsement without permission",
+          "license_files": [
+            {
+              "path": "downloads/dotenv-backslashes/after/tree/LICENSE",
+              "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9"
+            }
+          ],
+          "redistribution_route": "BSD-3-Clause",
+          "scope": "project source/test files; public issue/PR text is provenance, not automatically relicensed under the software license",
+          "snapshot": "after",
+          "upstream_license_expression": "BSD-3-Clause"
+        }
+      ],
+      "repo": "theskumar/python-dotenv",
+      "tests": {
+        "adaptation": "stdlib unittest; pytest parameters -> subTests; tmp_path -> TemporaryDirectory in /tmp; imports from exact read-only /source; focused subset, not full suite",
+        "adapter": "tools/adapters.py",
+        "adapter_sha256": "c6c62cad1a8fc73b07ecdb888d0095d5e3b707abba8eb7deedf1f071b773afc4",
+        "upstream_locations": [
+          {
+            "end_line": 83,
+            "file": "tests/test_main.py",
+            "function": "test_set_key_round_trips",
+            "sha256": "e3a3a74ce8ec04229774cfa1dbe3721be334deb894bf145a4925aa1cd5058e0f",
+            "start_line": 60,
+            "url": "https://github.com/theskumar/python-dotenv/blob/f7b18d9c72d1abcc2ad4023424b84f5bee30d266/tests/test_main.py#L60-L83"
+          }
+        ]
+      }
+    }
+  ],
+  "publication_status_policy": "Hosting record and Git commit establish publication; this manifest identifies code and the verified full archive."
+}

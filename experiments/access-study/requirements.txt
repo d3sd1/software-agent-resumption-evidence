@@ -1,0 +1,4 @@
+# No third-party Python dependencies. Standard library only.
+# Exact runtime identity is captured in preparation.json and every evidence binding.
+# External executables: /usr/bin/python3, /usr/bin/bwrap, /usr/bin/prlimit.
+# The inherited CLI is used only after coordinator preflight/freeze and explicit authorization.

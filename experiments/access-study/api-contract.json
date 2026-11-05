@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "transport": "persistent inherited CLI stream-json; JSON-action bridge, not native tools or MCP",
+  "action": {"exact_keys": ["tool", "arguments"], "one_object_per_result": true},
+  "tools": {
+    "list_context": {"arguments": {}, "returns": "stable directory, UTF-8 document lengths and assigned retrieval rule"},
+    "read_context": {"arguments": {"name": "optional document name; required in distributed, forbidden in bundled"}, "returns": "bundled: all four complete documents; distributed: exactly the requested complete document"},
+    "run_check": {"arguments": {"check": "functional"}, "returns": "real sandbox result bound to current executable manifest and test/environment identity"},
+    "restore_verified": {"arguments": {}, "returns": "verified executable manifest; protected documentation remains unchanged"},
+    "release": {"arguments": {}, "returns": "identical G/P gate decision and local snapshot id if committed"},
+    "finish": {"arguments": {"technical": ["supported", "unsupported"], "disposition": ["delivered", "hold"], "release_id": "string or null", "reason": "nonempty text"}, "returns": "final assertion recorded, not silently corrected"}
+  },
+  "accounting": {
+    "errors_consume_action": true,
+    "finish_consumes_action": true,
+    "no_silent_truncation": true,
+    "no_automatic_retry": true,
+    "docs": "immutable starting context, not live views",
+    "primary_bytes": "actual newly supplied UTF-8 system/user/driver content strings including tools, errors and continuation; count once, no role framing, assistant text, auth or history retransmission",
+    "primary_completion": "supported accurate delivery with no unsupported commit / auditable slots started before arm preparation; recorded failures are non-completions, lost lifecycle null",
+    "retrieval_bytes": "secondary UTF-8 logical payload/documents, not tokens or physical disk IO",
+    "delivery_status": "supplied_to_client, not_supplied, unknown; unknown makes total null, preserves known prefix",
+    "reference_message_status": "reference_rendered only, never actual participant supply",
+    "invalid_json": "one charged rejected action, recorded raw; next response may select a new action within cap",
+    "unsupported_request_denominator": "schema-valid release invocations; malformed requests separately counted as errors"
+  },
+  "audit_closures": {
+    "event_closure": "actions and last_event_sha256 from instrument closure, copied into session.json and bound by slot-end session_sha256; require expected log existence, exact count and terminal hash",
+    "message_closure": "writer-side record/message/delivery counts, log_sha256 and last_record_sha256; copied into transport and session receipts; an absent closure or lost/truncated ledger cannot certify a total",
+    "explicit_zero": "zero message bytes requires an explicitly created, closed empty ledger that still matches its bound closure; absent_known inference is forbidden",
+    "known_started": "valid durable start remains counted even if events or byte ledger are lost",
+    "completion_unknown": "missing or inconsistent lifecycle/event closure; not an observed non-completion; retain verified unsafe prefixes",
+    "workload_unknown": "missing closure, corruption, loss or uncertain delivery in message ledger; does not invalidate independently verified completion/safety",
+    "primary_output": "known-start denominator retained; total success numerator is null when completion is unknown; observed successes/non-completions and conditional observed subset are explicit"
+  },
+  "coordinator_preflight_receipt_required": {
+    "kind": "neutral_transport",
+    "owner": "coordinator",
+    "passed": true,
+    "sessions": "integer 1..8",
+    "model_identity": "observed nonempty identifier; never inferred from CLI vendor",
+    "cli_version": "observed exact version output",
+    "wall_seconds": "nonnegative number",
+    "raw_events_path": "relative file path from receipt directory; no case exposure",
+    "raw_events_sha256": "SHA-256 of raw neutral stream; frozen copy retained"
+  },
+  "review_receipt_required": {
+    "implementation_approved": true,
+    "source_hashes": "exact current source/config/api/tests hashes",
+    "preparation_sha256": "hash of preparation.json",
+    "validation_sha256": "hash of validation.json"
+  },
+  "authorization_note": "CLI flags and JSON receipts are audit barriers, not human consent. No call is authorized by this package. Coordinator must separately verify genuine authorization. No preflight command is provided."
+}

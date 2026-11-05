@@ -1,2 +1,0 @@
-{"type": "tool_start", "ordinal": 1, "name": "finish", "arguments": {"status": "hold", "assessment": "supported", "reason": "budget"}, "timestamp": "2026-11-05T09:32:53Z"}
-{"type": "tool_result", "ordinal": 1, "name": "finish", "arguments": {"status": "hold", "assessment": "supported", "reason": "budget"}, "executed": true, "is_error": false, "result": {"recorded": {"status": "hold", "assessment": "supported", "reason": "budget"}, "earlier_commits_preserved": true, "tools_remaining": 7}, "runtime_seconds": 0.0009136209991993383, "timestamp": "2026-11-05T09:32:53Z"}

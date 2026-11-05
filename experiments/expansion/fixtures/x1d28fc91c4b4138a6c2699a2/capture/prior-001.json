@@ -1,1 +1,0 @@
-{"artifact_id":"a4499fdf8e89d403f2d0eae5d","configuration":{"offset":0},"source":"def net(cents, offset):\n    return cents * 80 // 100 + offset\n"}

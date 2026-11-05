@@ -1,8 +1,0 @@
-{
-  "launched": true,
-  "completed_controller": true,
-  "completed_cli": false,
-  "errors": [],
-  "diagnostic_scripted_validation_not_participant": true,
-  "release_projection": "Factual operational metadata only; not the original provider session record."
-}

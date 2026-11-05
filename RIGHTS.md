@@ -1,31 +1,32 @@
-# Rights and redistribution scope
+# Component rights and attribution
 
-## Preserved copyright and license
+This package is a mixed-component research artifact. A single root software license must not be interpreted as relicensing every file. Publication status and archive identifiers belong to the hosting record; these scripts neither publish nor assign an identifier to an extended version.
 
-The original study license is reproduced without alteration in `LICENSE` and `experiments/LICENSE`:
+## Independently authored study software
 
-Copyright (c) 2026 Andrei García Cuadra.
+The original scoped MIT notice is retained in `LICENSE` and `experiments/LICENSE`, with copyright attributed to Andrei García Cuadra, 2026. It covers independently written study implementations, synthetic generators and the new release/reproduction tools. It does not grant rights in third-party source or tests, model-provider software/services, provider-generated prose, manuscripts or external reference documents.
 
-Its MIT grant covers independently written experiment source and synthetic fixture generators. The new release exporter and offline reproduction code are independently authored additions under the same scoped software license and attribution. This document does not broaden the existing license to third-party content, hosted services, provider software or recorded model outputs.
+## Third-party components preserved exactly
 
-## Component inventory
+| Used case | Upstream project and redistribution route | Original notices |
+| --- | --- | --- |
+| packaging-sibling-errors | pypa/packaging; BSD-2-Clause route under its Apache-2.0 OR BSD-2-Clause choice | `LICENSE`, `LICENSE.BSD`, `LICENSE.APACHE` in the before/after `notices/` directories |
+| itertools-large-range | more-itertools/more-itertools; MIT | `LICENSE`, including Erik Rose's copyright |
+| itertools-peekable-slice | more-itertools/more-itertools; MIT | `LICENSE`, including Erik Rose's copyright |
+| dotenv-backslashes | theskumar/python-dotenv; BSD-3-Clause | `LICENSE`, retaining Saurabh Kumar, Ted Tieken and Jacob Kaplan-Moss attributions and the non-endorsement condition |
 
-| Component | Provenance and treatment |
-| --- | --- |
-| Pilot and expansion Python implementation | Independently written study software; preserve the existing MIT copyright notice. The T arm is a disclosed conceptual adaptation, not copied source or an exact reproduction of another implementation. |
-| Synthetic fixture generators and fixtures | Study-authored synthetic cases and machine-generated evidence. No external dataset or originating-project source is required. Generator software follows the existing license; no ownership of third-party material is asserted. |
-| Frozen prompts and system instructions | Study-authored experimental design inputs, not provider-generated reasoning transcripts. Preserved as study artifacts with source hashes. |
-| Operational tool/check/release events | Factual observations of local execution, including action identifiers, bounded arguments, enum dispositions, check outputs and numeric telemetry. No blanket license of model prose is attached. |
-| Projected session records | Derived factual metadata only. Raw provider output objects, narrative, account identifiers and command metadata are excluded; manifest records the derivation. |
-| Post-study measurement validation | Study-authored tests and controlled synthetic fault injections. Original failures and the separate corrected variant remain distinguishable. |
-| Python standard library | An external runtime dependency, not bundled or relicensed. Install Python through an appropriate distributor. |
-| Provider CLI, models and hosted services | Not bundled. Historical implementation references do not grant a license to those services. The offline entry point does not call them. |
-| Raw provider prose, issue/PR prose and external reference documents | Not licensed by this package and intentionally excluded. Public visibility is not a redistribution license. |
+The canonical notices and pinned snapshots are under `experiments/access-study/capsules/cohort-001/prepared/cases/<case>/before/` and `after/`. Immutable session snapshots/releases retain their corresponding notices too. Packaging source retains Donald Stufft and individual-contributor attribution. Other in-source authors, SPDX data notices and public references are preserved as upstream supplied them. No third-party source, adapter or notice was sent to a cleaning/rewrite service or stripped of provenance marks.
 
-## What remains unresolved
+Exact before/after commits, upstream URLs, test locations, adapter hash and license metadata remain in each `case.json`. These identifiers are provenance, not bundled issue or pull-request prose. The focused shared adapter is byte-identical to the frozen version and contains adaptations from all three upstream projects, including classes not selected for this cohort. **All three projects' applicable notices govern their respective portions of that shared adapter**, regardless of which case directory contains a copy. Only four case source trees are included; the adapter's unused classes are retained to preserve its original identity, not presented as executed cases.
 
-No legal conclusion is made about redistribution of original provider-generated prose or third-party issue/PR text. Those materials are absent; do not add them without a separate documented rights basis and privacy review. The later access-study and its curation sources are deferred entirely. No claim is made that an author's software license covers contributors' issue comments, pull-request descriptions, logos, private project assets or model output.
+## Factual observations and explicit derivatives
 
-Factual records may have different copyright and database-rights treatment across jurisdictions. This package provides provenance and scope, not a legal warranty or a fabricated universal data license. Any hosting repository or deposit must use rights metadata consistent with the actual included components rather than applying a software license or CC license indiscriminately to every source.
+Operational actions, numeric telemetry, bounded structured dispositions, check observations and derived statistical tables are provided as factual research records. No fabricated universal data license or blanket provider-output license is asserted. Copyright and database-rights treatment may differ by jurisdiction. Retain the provenance, derivation labels and limitations when redistributing these records.
 
-Publication status is established by the hosting repository or deposit record, when one exists, not by exporting the package or executing its scripts. Inspect the exact manifest and privacy/reproduction receipts when evaluating or redistributing the package. Do not upload the private parent repository, local audit reports containing private source locations, virtual environments, disposable reanalysis directories or excluded originals. No manuscript, editorial submission or patent material is authorized by this package.
+The exported access event/message records are explicitly re-sealed derivatives after equal-UTF-8-length replacement of private local paths and removal of provider initialization/response objects. Their native hashes verify the public derivative bytes. The original seals are retained in `access-redaction-map.json`; those original bytes are not thereby made publicly verifiable. Do not describe these copies as byte-identical frozen originals or represent a factual-reanalysis result as provider-authenticated evidence.
+
+## Excluded rights-sensitive material
+
+Raw provider streams and response prose, raw action strings, free-text final explanations, credentials/account identifiers, issue bodies, PR descriptions/comments, unused curation/reserve trees, patents, manuscripts, reference PDFs and private originating-project assets are excluded. Public availability of an issue or PR does not establish a license to redistribute its prose. Software licenses are not presumed to cover that material.
+
+If future hosting metadata offers only a single license field, document the mixed scope explicitly through the component inventory and preserved notices rather than suggesting that project MIT applies to all components. Do not attach an unqualified CC or MIT grant to excluded provider prose or third-party material. The coordinator must review the actual payload, privacy report, derivation limits and applicable hosting metadata before any extended-version deposit. No legal warranty or independent-authenticity certificate is supplied by this local audit.

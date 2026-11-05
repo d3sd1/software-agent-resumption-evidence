@@ -1,7 +1,0 @@
-{
-  "reason": "Stale derived summary detected during public-export offline verification; original observations are not changed",
-  "original_sha256": "e1f43557712425a3289f27136de970b8ead7add5dbfa986aca7ac025ca004c6f",
-  "backup": "aggregate-history/before-rebuild-20261105.json",
-  "original_pilot_assigned": 28,
-  "original_expansion_assigned": 0
-}

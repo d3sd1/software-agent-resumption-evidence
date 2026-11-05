@@ -1,4 +1,0 @@
-# Python standard library only; no pip dependencies.
-# Exact interpreter: CPython 3.14.4, using ../.venv/bin/python.
-# Exact inherited-auth CLI expected: 2.1.318.
-# No new account, endpoint, API key or paid fallback.
