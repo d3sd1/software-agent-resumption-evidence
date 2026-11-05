@@ -1,0 +1,78 @@
+{
+  "stdout": "{\"subject_sha256\": \"a426c2582d5d3b8edd52d2d2bbc3b2c5dbe72f32be9ec06430e31bf4b2c5b84e\", \"check\": \"functional\", \"scope\": \"real-local-functional-v2\", \"outcome\": \"fail\", \"failures\": [{\"cents\": 0, \"actual\": 8, \"expected\": 0}, {\"cents\": 1, \"actual\": 8, \"expected\": 0}, {\"cents\": 10, \"actual\": 16, \"expected\": 8}, {\"cents\": 99, \"actual\": 95, \"expected\": 87}, {\"cents\": 100, \"actual\": 96, \"expected\": 88}, {\"cents\": 101, \"actual\": 96, \"expected\": 88}, {\"cents\": 999, \"actual\": 887, \"expected\": 879}, {\"cents\": 31552, \"actual\": 27773, \"expected\": 27765}], \"cases\": [0, 1, 10, 99, 100, 101, 999, 31552], \"limits\": \"Executed local integer component and configuration only; no physical or external-service measurement\"}\n",
+  "stderr": "",
+  "exit_code": 1,
+  "runtime_seconds": 0.024867514992365614,
+  "parsed": {
+    "subject_sha256": "a426c2582d5d3b8edd52d2d2bbc3b2c5dbe72f32be9ec06430e31bf4b2c5b84e",
+    "check": "functional",
+    "scope": "real-local-functional-v2",
+    "outcome": "fail",
+    "failures": [
+      {
+        "cents": 0,
+        "actual": 8,
+        "expected": 0
+      },
+      {
+        "cents": 1,
+        "actual": 8,
+        "expected": 0
+      },
+      {
+        "cents": 10,
+        "actual": 16,
+        "expected": 8
+      },
+      {
+        "cents": 99,
+        "actual": 95,
+        "expected": 87
+      },
+      {
+        "cents": 100,
+        "actual": 96,
+        "expected": 88
+      },
+      {
+        "cents": 101,
+        "actual": 96,
+        "expected": 88
+      },
+      {
+        "cents": 999,
+        "actual": 887,
+        "expected": 879
+      },
+      {
+        "cents": 31552,
+        "actual": 27773,
+        "expected": 27765
+      }
+    ],
+    "cases": [
+      0,
+      1,
+      10,
+      99,
+      100,
+      101,
+      999,
+      31552
+    ],
+    "limits": "Executed local integer component and configuration only; no physical or external-service measurement"
+  },
+  "command_template": [
+    "<venv-python>",
+    "-I",
+    "checker.py",
+    "--snapshot",
+    "<immutable-json>",
+    "--check",
+    "functional",
+    "--target",
+    "88",
+    "--cases",
+    "[0, 1, 10, 99, 100, 101, 999, 31552]"
+  ]
+}

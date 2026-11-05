@@ -1,0 +1,157 @@
+{
+  "arm": "T",
+  "fixture": {
+    "family": "relevant-dirty-change",
+    "contract": {
+      "version": "discount-v1",
+      "scope": "real-local-functional",
+      "requirement": "net(cents) == cents * 90 // 100 for nonnegative integer cents",
+      "conflict_rule": "any applicable failure blocks; failures for other snapshots do not block"
+    },
+    "dependencies": {
+      "checker_sha256": "17631a200e4d34d06a540c1c4921964a9ce56df8d4c172e89de1775d251a2ca5",
+      "python": "3.14.4"
+    },
+    "policy": {
+      "check": true,
+      "repair": true,
+      "release": true
+    },
+    "initial_policy": {
+      "check": true,
+      "repair": true,
+      "release": true
+    },
+    "real_check_available": true,
+    "predecessor_hash": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+    "initial_hash": "377100b52d6ffc803dd6397c3abc876e415307aaefbde676f29b1fab7aa054af",
+    "evidence": [
+      {
+        "id": "predecessor-001",
+        "subject_sha256": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+        "criterion_version": "discount-v1",
+        "scope": "real-local-functional",
+        "outcome": "pass",
+        "dependencies": {
+          "checker_sha256": "17631a200e4d34d06a540c1c4921964a9ce56df8d4c172e89de1775d251a2ca5",
+          "python": "3.14.4"
+        },
+        "check": "functional-real",
+        "observed_at": "2026-11-04T18:11:51Z",
+        "provenance": "predecessor-check.json",
+        "raw": {
+          "command_template": [
+            "<venv-python>",
+            "-I",
+            "checker.py",
+            "--candidate",
+            "<frozen-snapshot>",
+            "--check",
+            "functional-real"
+          ],
+          "exit_code": 0,
+          "stdout": "{\"candidate_sha256\": \"50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76\", \"check\": \"functional-real\", \"outcome\": \"pass\", \"scope\": \"real-local-functional\", \"cases\": 9, \"failures\": []}\n",
+          "stderr": "",
+          "runtime_seconds": 0.027134326010127552,
+          "parsed": {
+            "candidate_sha256": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+            "check": "functional-real",
+            "outcome": "pass",
+            "scope": "real-local-functional",
+            "cases": 9,
+            "failures": []
+          }
+        },
+        "limits": "deterministic local functional examples only"
+      }
+    ],
+    "git_state": "No Git history created. Dirty means current bytes differ from retained predecessor.py.",
+    "predecessor_kind": "harness-generated evidence; no originating model call"
+  },
+  "evidence": [
+    {
+      "id": "predecessor-001",
+      "subject_sha256": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+      "criterion_version": "discount-v1",
+      "scope": "real-local-functional",
+      "outcome": "pass",
+      "dependencies": {
+        "checker_sha256": "17631a200e4d34d06a540c1c4921964a9ce56df8d4c172e89de1775d251a2ca5",
+        "python": "3.14.4"
+      },
+      "check": "functional-real",
+      "observed_at": "2026-11-04T18:11:51Z",
+      "provenance": "predecessor-check.json",
+      "raw": {
+        "command_template": [
+          "<venv-python>",
+          "-I",
+          "checker.py",
+          "--candidate",
+          "<frozen-snapshot>",
+          "--check",
+          "functional-real"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"candidate_sha256\": \"50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76\", \"check\": \"functional-real\", \"outcome\": \"pass\", \"scope\": \"real-local-functional\", \"cases\": 9, \"failures\": []}\n",
+        "stderr": "",
+        "runtime_seconds": 0.027134326010127552,
+        "parsed": {
+          "candidate_sha256": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+          "check": "functional-real",
+          "outcome": "pass",
+          "scope": "real-local-functional",
+          "cases": 9,
+          "failures": []
+        }
+      },
+      "limits": "deterministic local functional examples only"
+    },
+    {
+      "id": "check-003",
+      "subject_sha256": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+      "criterion_version": "discount-v1",
+      "scope": "real-local-functional",
+      "outcome": "pass",
+      "dependencies": {
+        "checker_sha256": "17631a200e4d34d06a540c1c4921964a9ce56df8d4c172e89de1775d251a2ca5",
+        "python": "3.14.4"
+      },
+      "check": "functional-real",
+      "observed_at": "2026-11-04T18:21:13Z",
+      "provenance": "snapshots/check-003.json",
+      "raw": {
+        "command_template": [
+          "<venv-python>",
+          "-I",
+          "checker.py",
+          "--candidate",
+          "<frozen-snapshot>",
+          "--check",
+          "functional-real"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"candidate_sha256\": \"50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76\", \"check\": \"functional-real\", \"outcome\": \"pass\", \"scope\": \"real-local-functional\", \"cases\": 9, \"failures\": []}\n",
+        "stderr": "",
+        "runtime_seconds": 0.045977668996783905,
+        "parsed": {
+          "candidate_sha256": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+          "check": "functional-real",
+          "outcome": "pass",
+          "scope": "real-local-functional",
+          "cases": 9,
+          "failures": []
+        }
+      },
+      "limits": "deterministic local functional examples only"
+    }
+  ],
+  "executed_tools": 5,
+  "attempted_tools": 5,
+  "finished": true,
+  "finish": {
+    "status": "released",
+    "assessment": "supported",
+    "reason": "completed"
+  }
+}

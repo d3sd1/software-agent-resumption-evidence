@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-11-04T18:11:51Z",
+  "python": "3.14.4",
+  "config_sha256": "cd9aaa27172a9ee9289d48cd8115e282370bb8d60fed70a8c41bccb3d4204440",
+  "fixtures": {
+    "unchanged-valid": {
+      "app.py": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+      "fixture.json": "213eeba5e8879b2ce25af5c17677ce2748f565640f4ec26608218016349149b2",
+      "predecessor-check.json": "a29ff94fe5a73c5d2485c1a8405531395b67751131f370d69cb53fe02bfce656",
+      "predecessor.py": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76"
+    },
+    "relevant-dirty-change": {
+      "app.py": "377100b52d6ffc803dd6397c3abc876e415307aaefbde676f29b1fab7aa054af",
+      "fixture.json": "2c9a2d8bcb7043430141046c19f0efc056ee8000137dedb01d37d80a09c6dbca",
+      "predecessor-check.json": "0a2fddc979d450f273ba028e04d144805f0a9b80833634d7c299f894f9fe702c",
+      "predecessor.py": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76"
+    },
+    "mock-only": {
+      "app.py": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+      "fixture.json": "94b216b8b56dad67fb5f140dd350f16de45d5246d572566a4dc1ff002a19a4dd",
+      "predecessor-check.json": "6b3fcd37837db42cbff6b9ef29ef3bfef2ed8048487fb7a37019b787683d3787",
+      "predecessor.py": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76"
+    },
+    "authorization-revoked": {
+      "app.py": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+      "fixture.json": "59e53032f6dfca59b25a9bfcc7946bf5b8aad3fe27451dbad736fef17797a2e1",
+      "predecessor-check.json": "7e578e12e327d690f860acf8a03670faefd23a8c118789520f6234bff086e3b6",
+      "predecessor.py": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76"
+    }
+  }
+}

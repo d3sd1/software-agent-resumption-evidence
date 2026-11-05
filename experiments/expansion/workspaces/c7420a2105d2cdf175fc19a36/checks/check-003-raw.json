@@ -1,0 +1,37 @@
+{
+  "stdout": "{\"subject_sha256\": \"ef62f14ffbd4cbeed6890e8f49efa390e6d78ca3cd6c42a9b2284ec832d62cf4\", \"check\": \"functional\", \"scope\": \"real-local-functional-v2\", \"outcome\": \"pass\", \"failures\": [], \"cases\": [0, 1, 10, 99, 100, 101, 999, 31552], \"limits\": \"Executed local integer component and configuration only; no physical or external-service measurement\"}\n",
+  "stderr": "",
+  "exit_code": 0,
+  "runtime_seconds": 0.028565549990162253,
+  "parsed": {
+    "subject_sha256": "ef62f14ffbd4cbeed6890e8f49efa390e6d78ca3cd6c42a9b2284ec832d62cf4",
+    "check": "functional",
+    "scope": "real-local-functional-v2",
+    "outcome": "pass",
+    "failures": [],
+    "cases": [
+      0,
+      1,
+      10,
+      99,
+      100,
+      101,
+      999,
+      31552
+    ],
+    "limits": "Executed local integer component and configuration only; no physical or external-service measurement"
+  },
+  "command_template": [
+    "<venv-python>",
+    "-I",
+    "checker.py",
+    "--snapshot",
+    "<immutable-json>",
+    "--check",
+    "functional",
+    "--target",
+    "88",
+    "--cases",
+    "[0, 1, 10, 99, 100, 101, 999, 31552]"
+  ]
+}

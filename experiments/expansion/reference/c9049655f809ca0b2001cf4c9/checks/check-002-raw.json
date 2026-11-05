@@ -1,0 +1,68 @@
+{
+  "stdout": "{\"subject_sha256\": \"3bc6b6a9eb9d04dc49a591711c7e55382080923d34b64782d15a4932c0bb54da\", \"check\": \"functional\", \"scope\": \"real-local-functional-v2\", \"outcome\": \"fail\", \"failures\": [{\"cents\": 10, \"actual\": 8, \"expected\": 9}, {\"cents\": 99, \"actual\": 84, \"expected\": 89}, {\"cents\": 100, \"actual\": 85, \"expected\": 90}, {\"cents\": 101, \"actual\": 85, \"expected\": 90}, {\"cents\": 999, \"actual\": 849, \"expected\": 899}, {\"cents\": 32686, \"actual\": 27783, \"expected\": 29417}], \"cases\": [0, 1, 10, 99, 100, 101, 999, 32686], \"limits\": \"Executed local integer component and configuration only; no physical or external-service measurement\"}\n",
+  "stderr": "",
+  "exit_code": 1,
+  "runtime_seconds": 0.033551312997587956,
+  "parsed": {
+    "subject_sha256": "3bc6b6a9eb9d04dc49a591711c7e55382080923d34b64782d15a4932c0bb54da",
+    "check": "functional",
+    "scope": "real-local-functional-v2",
+    "outcome": "fail",
+    "failures": [
+      {
+        "cents": 10,
+        "actual": 8,
+        "expected": 9
+      },
+      {
+        "cents": 99,
+        "actual": 84,
+        "expected": 89
+      },
+      {
+        "cents": 100,
+        "actual": 85,
+        "expected": 90
+      },
+      {
+        "cents": 101,
+        "actual": 85,
+        "expected": 90
+      },
+      {
+        "cents": 999,
+        "actual": 849,
+        "expected": 899
+      },
+      {
+        "cents": 32686,
+        "actual": 27783,
+        "expected": 29417
+      }
+    ],
+    "cases": [
+      0,
+      1,
+      10,
+      99,
+      100,
+      101,
+      999,
+      32686
+    ],
+    "limits": "Executed local integer component and configuration only; no physical or external-service measurement"
+  },
+  "command_template": [
+    "<venv-python>",
+    "-I",
+    "checker.py",
+    "--snapshot",
+    "<immutable-json>",
+    "--check",
+    "functional",
+    "--target",
+    "90",
+    "--cases",
+    "[0, 1, 10, 99, 100, 101, 999, 32686]"
+  ]
+}

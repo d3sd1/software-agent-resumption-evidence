@@ -1,0 +1,26 @@
+{
+  "status": "Post-study corrective validation, specified before run-002. The original cases.json remains unchanged.",
+  "contract_basis": "The expansion checker accepts exactly compile and functional. Their emitted scopes are compile and real-local-functional-v2 respectively. Complete domain.capture_check records preserve matching stdout, optional parsed labels, and a command_template containing one matching --check argument.",
+  "cases": [
+    {"id":"valid-functional", "description":"Valid functional observation supports the functional contract.", "expected":{"technical_state":"supported","allowed":true}},
+    {"id":"valid-compile-contract", "description":"Valid compile observation supports a compile-only test contract, without becoming functional evidence.", "expected":{"technical_state":"supported","allowed":true}},
+    {"id":"compile-insufficient", "description":"A correctly labeled compile observation cannot satisfy the functional contract.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"compile-labeled-functional-scope", "description":"Compile check and commanded compile operation cannot produce functional scope.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"functional-labeled-compile-scope", "description":"Functional check and commanded functional operation cannot produce compile scope, even with a compile-only contract.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"unknown-check", "description":"A matching invented check label in all representations is not an allowlisted observation producer.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"missing-check", "description":"A complete record missing its check label is not admissible.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"nonstring-check", "description":"A list-valued check label is malformed and must be rejected without a crash.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"unknown-scope", "description":"An invented required scope cannot be supported by relabeling a local functional observation.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"fabricated-physical-scope", "description":"Local functional observations cannot claim physical-fit support.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"stdout-label-mismatch", "description":"The record's functional labels disagree with authoritative stdout labels.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"cached-label-mismatch", "description":"Matching record/stdout labels conflict with the retained cached parsed check label.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"command-label-mismatch", "description":"Matching record/stdout labels conflict with the retained commanded check.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"missing-command-provenance", "description":"A purported complete captured record lacks the command_template required by this corrected capture-format contract.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"duplicate-command-check", "description":"Two --check arguments make command provenance ambiguous.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"command-check-without-value", "description":"A trailing --check flag provides no commanded check label.", "expected":{"technical_state":"unknown","allowed":false}},
+    {"id":"valid-functional-failure", "description":"A correctly labeled applicable functional failure remains contradicted.", "expected":{"technical_state":"contradicted","allowed":false}},
+    {"id":"invalid-plus-valid", "description":"An inadmissible record is excluded; an independent valid functional pass still supports the contract.", "expected":{"technical_state":"supported","allowed":true}},
+    {"id":"valid-pass-and-fail", "description":"Two valid functional records with contradictory outcomes remain contradicted.", "expected":{"technical_state":"contradicted","allowed":false}},
+    {"id":"valid-no-cached-parsed", "description":"Authoritative matching stdout and command provenance remain sufficient when the optional cached parsed copy is absent.", "expected":{"technical_state":"supported","allowed":true}}
+  ]
+}

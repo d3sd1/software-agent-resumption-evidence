@@ -1,0 +1,24 @@
+{
+  "command_template": [
+    "<venv-python>",
+    "-I",
+    "checker.py",
+    "--candidate",
+    "<frozen-snapshot>",
+    "--check",
+    "functional-mock",
+    "--unavailable"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"candidate_sha256\": \"50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76\", \"check\": \"functional-mock\", \"outcome\": \"pass\", \"scope\": \"mock-functional\", \"cases\": 2, \"limitation\": \"stub only; candidate component not executed\"}\n",
+  "stderr": "",
+  "runtime_seconds": 0.02746150099847,
+  "parsed": {
+    "candidate_sha256": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+    "check": "functional-mock",
+    "outcome": "pass",
+    "scope": "mock-functional",
+    "cases": 2,
+    "limitation": "stub only; candidate component not executed"
+  }
+}

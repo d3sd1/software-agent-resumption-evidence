@@ -1,0 +1,87 @@
+{
+  "group": "contract",
+  "tests_run": 20,
+  "successful": true,
+  "records": [
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_cached_label_mismatch",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_command_check_without_value",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_command_label_mismatch",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_compile_insufficient",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_compile_labeled_functional_scope",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_duplicate_command_check",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_fabricated_physical_scope",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_functional_labeled_compile_scope",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_invalid_plus_valid",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_missing_check",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_missing_command_provenance",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_nonstring_check",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_stdout_label_mismatch",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_unknown_check",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_unknown_scope",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_compile_contract",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_functional",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_functional_failure",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_no_cached_parsed",
+      "status": "PASS"
+    },
+    {
+      "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_pass_and_fail",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "command_template": [
+    "<venv-python>",
+    "-I",
+    "checker.py",
+    "--candidate",
+    "<frozen-snapshot>",
+    "--check",
+    "functional-real"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"candidate_sha256\": \"50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76\", \"check\": \"functional-real\", \"outcome\": \"pass\", \"scope\": \"real-local-functional\", \"cases\": 9, \"failures\": []}\n",
+  "stderr": "",
+  "runtime_seconds": 0.028182028996525332,
+  "parsed": {
+    "candidate_sha256": "50f7ed4f0445d431a71ea279c054270fde8e00b9963734ca0f0b023f5c6eac76",
+    "check": "functional-real",
+    "outcome": "pass",
+    "scope": "real-local-functional",
+    "cases": 9,
+    "failures": []
+  }
+}

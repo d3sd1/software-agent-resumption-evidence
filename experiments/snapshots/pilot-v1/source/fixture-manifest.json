@@ -1,0 +1,15 @@
+{
+  "stage": "pre-generation specification; generate_fixtures.py records actual hashes in fixtures/manifest.json before pilot",
+  "component": "app.py: net(cents) returns integer discounted cents",
+  "source_template": "def net(cents):\n    return cents * {multiplier} // 100\n",
+  "predecessor_multiplier": 90,
+  "families": {
+    "unchanged-valid": {"current_multiplier": 90, "predecessor_check": "functional-real", "real_check_available": true, "release_authorized": true},
+    "relevant-dirty-change": {"current_multiplier": 80, "predecessor_check": "functional-real", "real_check_available": true, "release_authorized": true},
+    "mock-only": {"current_multiplier": 90, "predecessor_check": "functional-mock", "real_check_available": false, "release_authorized": true},
+    "authorization-revoked": {"current_multiplier": 90, "predecessor_check": "functional-real", "real_check_available": true, "release_authorized": false}
+  },
+  "mutations": "performed after real predecessor subprocess exits; no source model session",
+  "policy_initial": {"check": true, "repair": true, "release": true},
+  "development_pilot_overlap": "unit tests and pilot share toy family templates; no held-out generalization claimed"
+}

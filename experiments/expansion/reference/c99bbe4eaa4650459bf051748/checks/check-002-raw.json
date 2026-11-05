@@ -1,0 +1,63 @@
+{
+  "stdout": "{\"subject_sha256\": \"9059ce4b217393f967ce741a3c713a6a4a61196663ad24015def4267ab31992d\", \"check\": \"functional\", \"scope\": \"real-local-functional-v2\", \"outcome\": \"fail\", \"failures\": [{\"cents\": 99, \"actual\": 82, \"expected\": 87}, {\"cents\": 100, \"actual\": 83, \"expected\": 88}, {\"cents\": 101, \"actual\": 83, \"expected\": 88}, {\"cents\": 999, \"actual\": 829, \"expected\": 879}, {\"cents\": 31552, \"actual\": 26188, \"expected\": 27765}], \"cases\": [0, 1, 10, 99, 100, 101, 999, 31552], \"limits\": \"Executed local integer component and configuration only; no physical or external-service measurement\"}\n",
+  "stderr": "",
+  "exit_code": 1,
+  "runtime_seconds": 0.025034505990333855,
+  "parsed": {
+    "subject_sha256": "9059ce4b217393f967ce741a3c713a6a4a61196663ad24015def4267ab31992d",
+    "check": "functional",
+    "scope": "real-local-functional-v2",
+    "outcome": "fail",
+    "failures": [
+      {
+        "cents": 99,
+        "actual": 82,
+        "expected": 87
+      },
+      {
+        "cents": 100,
+        "actual": 83,
+        "expected": 88
+      },
+      {
+        "cents": 101,
+        "actual": 83,
+        "expected": 88
+      },
+      {
+        "cents": 999,
+        "actual": 829,
+        "expected": 879
+      },
+      {
+        "cents": 31552,
+        "actual": 26188,
+        "expected": 27765
+      }
+    ],
+    "cases": [
+      0,
+      1,
+      10,
+      99,
+      100,
+      101,
+      999,
+      31552
+    ],
+    "limits": "Executed local integer component and configuration only; no physical or external-service measurement"
+  },
+  "command_template": [
+    "<venv-python>",
+    "-I",
+    "checker.py",
+    "--snapshot",
+    "<immutable-json>",
+    "--check",
+    "functional",
+    "--target",
+    "88",
+    "--cases",
+    "[0, 1, 10, 99, 100, 101, 999, 31552]"
+  ]
+}

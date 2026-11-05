@@ -1,0 +1,14 @@
+{
+  "launched": true,
+  "completed_controller": true,
+  "completed_cli": false,
+  "errors": [],
+  "diagnostic_scripted_validation_not_participant": true,
+  "usage_for_scoring": {
+    "input_tokens": 10,
+    "output_tokens": null,
+    "cache_read_input_tokens": null,
+    "cache_creation_input_tokens": null
+  },
+  "release_projection": "Factual operational metadata only; not the original provider session record."
+}

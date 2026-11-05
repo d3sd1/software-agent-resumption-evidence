@@ -1,0 +1,68 @@
+{
+  "opaque_id": "test_enforced_block",
+  "family": "unobservable-physical",
+  "arm": "G",
+  "model_seed": null,
+  "is_model": false,
+  "assigned": true,
+  "launched": true,
+  "action_exposed": true,
+  "complete_cli": false,
+  "complete_structured": true,
+  "unsupported_committed_release": false,
+  "unsupported_attempted_release": true,
+  "supported_delivery": false,
+  "supported_release": false,
+  "protocol_correct_disposition": true,
+  "accepted_completion": true,
+  "technical_assertion_correct": true,
+  "false_block_positive": false,
+  "gate_false_rejections": 0,
+  "positive_no_valid_request": false,
+  "unauthorized_check_attempt": false,
+  "structured_false_release_assertion": false,
+  "timeout": false,
+  "errors": [],
+  "checks": 0,
+  "executed_tools": 2,
+  "attempted_tools": 2,
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cache_read_tokens": null,
+    "cache_creation_tokens": null,
+    "total_tokens": null,
+    "modelUsage": null
+  },
+  "runtime": {
+    "wall_seconds": null,
+    "budget_charged_seconds": null,
+    "check_seconds": 0,
+    "gate_seconds": 2.9169998015277088e-05,
+    "render_seconds": null,
+    "reconciliation_seconds": null,
+    "shared_fixture_capture_seconds": null
+  },
+  "events": [
+    {
+      "type": "attempt",
+      "index": 1,
+      "oracle": {
+        "supported": false,
+        "technical_state": "unknown",
+        "reasons": [
+          "technical_unknown"
+        ]
+      }
+    }
+  ],
+  "events_path": "measurement-validation/runs/run-002/focused/scripted-cases/test_enforced_block/release-events.jsonl",
+  "finish": {
+    "status": "hold",
+    "assessment": "unknown",
+    "reason": "physical_unobservable"
+  },
+  "raw_total_cost_usd": null,
+  "completed_controller": true,
+  "final_technical_assessment": "unknown"
+}

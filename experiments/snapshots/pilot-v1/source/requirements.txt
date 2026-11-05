@@ -1,0 +1,4 @@
+# No third-party packages. Standard library only.
+# Exact pilot interpreter: CPython 3.14.4.
+# Exact inference CLI checked separately: 2.1.318.
+# No pip installation required. Use python3 -m venv --without-pip .venv.

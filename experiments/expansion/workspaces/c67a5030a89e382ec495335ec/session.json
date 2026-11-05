@@ -1,0 +1,69 @@
+{
+  "cell": {
+    "case_id": "x2969c12c78e62b63711252a7",
+    "family": "unrelated-change-valid",
+    "fixture_order_seed": 123,
+    "arm": "T",
+    "opaque_id": "c67a5030a89e382ec495335ec",
+    "id": "c67a5030a89e382ec495335ec",
+    "prompt": "frozen/prompts/c67a5030a89e382ec495335ec.txt",
+    "prompt_sha256": "b75627c72cfead9cadcecc1f1dae2fe43b99f4e6679cdf463347a60adad3dd13",
+    "overhead": {
+      "render_seconds": 2.2588996216654778e-05,
+      "reconciliation_seconds": 4.299989086575806e-06,
+      "handoff_characters": 2898,
+      "prompt_characters": 5953
+    },
+    "fixture_sha256": "d8f2f363dbc46b4006002e86511d4df81af360b180713da13e78c3a9787c177f"
+  },
+  "preflight": false,
+  "started_at": "2026-11-04T19:16:58Z",
+  "launched": true,
+  "python": "3.14.4",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+  "transport": "persistent CLI JSON-action bridge, not native MCP",
+  "model_requested": "inherited; no override",
+  "overhead": {
+    "render_seconds": 2.2588996216654778e-05,
+    "reconciliation_seconds": 4.299989086575806e-06,
+    "handoff_characters": 2898,
+    "prompt_characters": 5953
+  },
+  "shared_fixture_capture_seconds": 0.025505773999611847,
+  "ended_at": "2026-11-04T19:17:07Z",
+  "wall_seconds": 8.963593532011146,
+  "budget_charged_seconds": 8.963616492008441,
+  "timeout": false,
+  "errors": [],
+  "exit_code": 0,
+  "completed_cli": true,
+  "model_response_count": 3,
+  "usage_for_scoring": {
+    "input_tokens": 7894,
+    "output_tokens": 64,
+    "cache_read_input_tokens": 2688,
+    "cache_creation_input_tokens": 0
+  },
+  "usage_scoring_method": "sum explicit per-result deltas; missing categories remain null",
+  "modelUsage": {
+    "gpt-6-astra[1m]": {
+      "inputTokens": 7894,
+      "outputTokens": 64,
+      "cacheReadInputTokens": 2688,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.042414,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 32000,
+      "thinkingTokens": 11,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "canonicalModel": "gpt-6-astra[1m]",
+      "provider": "firstParty",
+      "costBasis": "unknown"
+    }
+  },
+  "raw_total_cost_usd": 0.042414,
+  "cost_note": "Raw estimates are not bills; costBasis preserved verbatim",
+  "release_projection": "Factual operational metadata only; not the original provider session record."
+}

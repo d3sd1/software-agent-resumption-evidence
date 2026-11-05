@@ -1,0 +1,818 @@
+[
+  {
+    "id": "cached-label-mismatch",
+    "description": "Matching record/stdout labels conflict with the retained cached parsed check label.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "cached_label_mismatch"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_cached_label_mismatch"
+  },
+  {
+    "id": "command-check-without-value",
+    "description": "A trailing --check flag provides no commanded check label.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "command_check_mismatch"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_command_check_without_value"
+  },
+  {
+    "id": "command-label-mismatch",
+    "description": "Matching record/stdout labels conflict with the retained commanded check.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "command_check_mismatch"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_command_label_mismatch"
+  },
+  {
+    "id": "compile-insufficient",
+    "description": "A correctly labeled compile observation cannot satisfy the functional contract.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": false,
+      "reason": "required_scope_unobserved",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "required_scope_unobserved",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": null
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "required_scope_unobserved",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "required_scope_unobserved",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      null
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_compile_insufficient"
+  },
+  {
+    "id": "compile-labeled-functional-scope",
+    "description": "Compile check and commanded compile operation cannot produce functional scope.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "check_scope_mismatch"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_compile_labeled_functional_scope"
+  },
+  {
+    "id": "duplicate-command-check",
+    "description": "Two --check arguments make command provenance ambiguous.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "ambiguous_or_missing_command_check"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_duplicate_command_check"
+  },
+  {
+    "id": "fabricated-physical-scope",
+    "description": "Local functional observations cannot claim physical-fit support.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "check_scope_mismatch"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_fabricated_physical_scope"
+  },
+  {
+    "id": "functional-labeled-compile-scope",
+    "description": "Functional check and commanded functional operation cannot produce compile scope, even with a compile-only contract.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "check_scope_mismatch"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_functional_labeled_compile_scope"
+  },
+  {
+    "id": "invalid-plus-valid",
+    "description": "An inadmissible record is excluded; an independent valid functional pass still supports the contract.",
+    "expected": {
+      "technical_state": "supported",
+      "allowed": true
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "invalid-compile-label"
+        ],
+        "served_pass": true
+      }
+    },
+    "observed": {
+      "technical_state": "supported",
+      "allowed": true
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      null,
+      "check_scope_mismatch"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_invalid_plus_valid"
+  },
+  {
+    "id": "missing-check",
+    "description": "A complete record missing its check label is not admissible.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "unknown_or_missing_check"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_missing_check"
+  },
+  {
+    "id": "missing-command-provenance",
+    "description": "A purported complete captured record lacks the command_template required by this corrected capture-format contract.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "missing_or_malformed_command_provenance"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_missing_command_provenance"
+  },
+  {
+    "id": "nonstring-check",
+    "description": "A list-valued check label is malformed and must be rejected without a crash.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "unknown_or_missing_check"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_nonstring_check"
+  },
+  {
+    "id": "stdout-label-mismatch",
+    "description": "The record's functional labels disagree with authoritative stdout labels.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "stdout_label_mismatch"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_stdout_label_mismatch"
+  },
+  {
+    "id": "unknown-check",
+    "description": "A matching invented check label in all representations is not an allowlisted observation producer.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "unknown_or_missing_check"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_unknown_check"
+  },
+  {
+    "id": "unknown-scope",
+    "description": "An invented required scope cannot be supported by relabeling a local functional observation.",
+    "expected": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "missing_or_unobservable_required_evidence",
+      "technical": {
+        "technical_state": "unknown",
+        "reason": "missing_or_unobservable_required_evidence",
+        "withdrawn_ids": [],
+        "incomplete_ids": [
+          "prior-001"
+        ],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "unknown",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      "check_scope_mismatch"
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_unknown_scope"
+  },
+  {
+    "id": "valid-compile-contract",
+    "description": "Valid compile observation supports a compile-only test contract, without becoming functional evidence.",
+    "expected": {
+      "technical_state": "supported",
+      "allowed": true
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "observed": {
+      "technical_state": "supported",
+      "allowed": true
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      null
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_compile_contract"
+  },
+  {
+    "id": "valid-functional",
+    "description": "Valid functional observation supports the functional contract.",
+    "expected": {
+      "technical_state": "supported",
+      "allowed": true
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "observed": {
+      "technical_state": "supported",
+      "allowed": true
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      null
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_functional"
+  },
+  {
+    "id": "valid-functional-failure",
+    "description": "A correctly labeled applicable functional failure remains contradicted.",
+    "expected": {
+      "technical_state": "contradicted",
+      "allowed": false
+    },
+    "original": {
+      "allowed": false,
+      "reason": "applicable_failure",
+      "technical": {
+        "technical_state": "contradicted",
+        "reason": "applicable_failure",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": null
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "applicable_failure",
+      "technical": {
+        "technical_state": "contradicted",
+        "reason": "applicable_failure",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "contradicted",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      null
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_functional_failure"
+  },
+  {
+    "id": "valid-no-cached-parsed",
+    "description": "Authoritative matching stdout and command provenance remain sufficient when the optional cached parsed copy is absent.",
+    "expected": {
+      "technical_state": "supported",
+      "allowed": true
+    },
+    "original": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "corrected": {
+      "allowed": true,
+      "reason": "all_required_scopes_supported",
+      "technical": {
+        "technical_state": "supported",
+        "reason": "all_required_scopes_supported",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": true
+      }
+    },
+    "observed": {
+      "technical_state": "supported",
+      "allowed": true
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      null
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_no_cached_parsed"
+  },
+  {
+    "id": "valid-pass-and-fail",
+    "description": "Two valid functional records with contradictory outcomes remain contradicted.",
+    "expected": {
+      "technical_state": "contradicted",
+      "allowed": false
+    },
+    "original": {
+      "allowed": false,
+      "reason": "applicable_failure",
+      "technical": {
+        "technical_state": "contradicted",
+        "reason": "applicable_failure",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": null
+      }
+    },
+    "corrected": {
+      "allowed": false,
+      "reason": "applicable_failure",
+      "technical": {
+        "technical_state": "contradicted",
+        "reason": "applicable_failure",
+        "withdrawn_ids": [],
+        "incomplete_ids": [],
+        "served_pass": null
+      }
+    },
+    "observed": {
+      "technical_state": "contradicted",
+      "allowed": false
+    },
+    "matches_expectation": true,
+    "label_errors": [
+      null,
+      null
+    ],
+    "test": "__main__.contract_worker.<locals>.ContractTests.test_valid_pass_and_fail"
+  }
+]

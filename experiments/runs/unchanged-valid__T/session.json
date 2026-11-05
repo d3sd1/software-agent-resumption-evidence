@@ -1,0 +1,53 @@
+{
+  "family": "unchanged-valid",
+  "arm": "T",
+  "preflight": false,
+  "started_at": "2026-11-04T18:17:58Z",
+  "fixture_sha256": "15df64f84cf82cd20b87be14eedd1314ece40d75702d6df98acf2f5171b058e1",
+  "model_requested": "inherited; no CLI override",
+  "overhead": {
+    "render_seconds": 3.1319999834522605e-05,
+    "handoff_characters": 2199,
+    "prompt_characters": 5034,
+    "reconciliation_seconds": 3.8900034269317985e-06
+  },
+  "python": "3.14.4",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+  "cost_note": "Raw CLI cost estimates, not billed cost. Preserve modelUsage costBasis.",
+  "exit_code": 0,
+  "timeout": false,
+  "errors": [],
+  "transport": "persistent CLI JSON-action bridge, not native MCP",
+  "model_response_count": 4,
+  "usage_for_scoring": {
+    "input_tokens": 4452,
+    "output_tokens": 68,
+    "cache_read_input_tokens": 8960,
+    "cache_creation_input_tokens": 0
+  },
+  "usage_scoring_method": "sum explicit model_usage_since_last_result deltas",
+  "wall_seconds": 11.18923282501055,
+  "ended_at": "2026-11-04T18:18:09Z",
+  "tools_exposed": [],
+  "completed_cli": true,
+  "modelUsage": {
+    "gpt-6-astra[1m]": {
+      "inputTokens": 4452,
+      "outputTokens": 68,
+      "cacheReadInputTokens": 8960,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.02844,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 32000,
+      "thinkingTokens": 0,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 0,
+      "canonicalModel": "gpt-6-astra[1m]",
+      "provider": "firstParty",
+      "costBasis": "unknown"
+    }
+  },
+  "raw_total_cost_usd": 0.02844,
+  "release_projection": "Factual operational metadata only; not the original provider session record."
+}

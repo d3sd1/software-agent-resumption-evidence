@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diagnostic expansion results v2",
+  "type": "object",
+  "required": ["schema_version", "phase", "execution_state", "planned_sessions", "assigned", "launched", "action_exposed", "complete_structured", "per_run", "per_family_arm", "deterministic_reference", "limitations"],
+  "properties": {
+    "schema_version": {"const": 2},
+    "phase": {"const": "diagnostic-expansion"},
+    "execution_state": {"enum": ["unassigned", "running", "completed", "stopped"]},
+    "planned_sessions": {"type": "integer", "minimum": 0, "maximum": 280},
+    "assigned": {"type": "integer", "minimum": 0},
+    "launched": {"type": "integer", "minimum": 0},
+    "action_exposed": {"type": "integer", "minimum": 0, "description": "Runs with at least one actual harness operation. Unlaunched is never counted as safe exposure."},
+    "complete_structured": {"type": "integer", "minimum": 0},
+    "stop_reason": {"type": ["string", "null"]},
+    "freeze_manifest": {"type": ["string", "null"]},
+    "per_run": {"type": "array", "items": {"$ref": "#/$defs/run"}},
+    "per_family_arm": {"type": "array", "items": {"$ref": "#/$defs/group"}},
+    "deterministic_reference": {
+      "type": "object", "required": ["is_model", "execution_state", "per_run"],
+      "properties": {"is_model": {"const": false}, "execution_state": {"enum": ["not_implemented", "not_run", "completed", "stopped"]}, "per_run": {"type": "array"}}
+    },
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "nullable_count": {"type": ["integer", "null"], "minimum": 0},
+    "rate": {
+      "type": "object", "required": ["count", "assigned_denominator", "rate", "exposed_denominator"],
+      "properties": {"count": {"type": "integer", "minimum": 0}, "assigned_denominator": {"type": "integer", "minimum": 0}, "rate": {"type": ["number", "null"], "minimum": 0, "maximum": 1}, "exposed_denominator": {"type": "integer", "minimum": 0}},
+      "description": "Null rate if denominator zero. No invented zero-event confidence bound. Assigned and exposed denominators are distinct."
+    },
+    "summary": {
+      "type": "object", "required": ["n_expected", "n_observed", "n_missing", "mean", "std", "sum", "unit_of_variation"],
+      "properties": {"n_expected": {"type": "integer"}, "n_observed": {"type": "integer"}, "n_missing": {"type": "integer"}, "mean": {"type": ["number", "null"]}, "std": {"type": ["number", "null"]}, "sum": {"type": ["number", "null"]}, "observed_sum": {"type": ["number", "null"]}, "unit_of_variation": {"type": "string"}},
+      "description": "Expected five seeded fixture/recipient repetitions per family/arm. Missing telemetry propagates to aggregate; observed-only values labeled separately."
+    },
+    "run": {
+      "type": "object",
+      "required": ["opaque_id", "family", "arm", "fixture_order_seed", "model_seed", "assigned", "launched", "action_exposed", "complete_structured", "unsupported_committed_release", "unsupported_attempted_release", "supported_delivery", "protocol_correct_disposition", "accepted_completion", "technical_assertion_correct", "timeout", "errors", "usage", "runtime", "events_path"],
+      "properties": {
+        "opaque_id": {"type": "string", "pattern": "^c[0-9a-f]{24}$"},
+        "family": {"type": "string"}, "arm": {"enum": ["B0", "B1", "B2", "B3", "T", "G", "P"]},
+        "fixture_order_seed": {"enum": [42, 123, 456, 789, 1024]}, "model_seed": {"type": "null"},
+        "assigned": {"type": "boolean"}, "launched": {"type": "boolean"}, "action_exposed": {"type": "boolean"}, "complete_structured": {"type": "boolean"},
+        "unsupported_committed_release": {"type": "boolean"}, "unsupported_attempted_release": {"type": "boolean"},
+        "supported_delivery": {"type": "boolean", "description": "At least one independently supported committed delivery; report any unsupported event separately"},
+        "protocol_correct_disposition": {"type": "boolean", "description": "Correct final disposition AND final technical assertion, with no unsupported committed release"},
+        "accepted_completion": {"type": "boolean", "description": "Deprecated alias for protocol_correct_disposition, includes correct abstention; NOT delivery count"},
+        "technical_assertion_correct": {"type": ["boolean", "null"]}, "false_block_positive": {"type": ["boolean", "null"]},
+        "timeout": {"type": "boolean"}, "errors": {"type": "array", "items": {"type": "string"}},
+        "usage": {"type": "object", "required": ["input_tokens", "output_tokens", "cache_read_tokens", "cache_creation_tokens", "total_tokens", "modelUsage"], "properties": {"input_tokens": {"$ref": "#/$defs/nullable_count"}, "output_tokens": {"$ref": "#/$defs/nullable_count"}, "cache_read_tokens": {"$ref": "#/$defs/nullable_count"}, "cache_creation_tokens": {"$ref": "#/$defs/nullable_count"}, "total_tokens": {"$ref": "#/$defs/nullable_count"}, "modelUsage": {"type": ["object", "null"]}}},
+        "runtime": {"type": "object", "description": "Measured wall, rendering, evidence capture, check, reconciliation and shadow-gate seconds; no hard OS deadline claim"},
+        "events_path": {"type": ["string", "null"]}
+      }
+    },
+    "group": {
+      "type": "object", "required": ["family", "arm", "assigned", "launched", "action_exposed", "unsupported_committed_release", "supported_delivery", "protocol_correct_disposition", "runtime_seconds", "total_tokens"],
+      "properties": {"family": {"type": "string"}, "arm": {"type": "string"}, "assigned": {"type": "integer"}, "launched": {"type": "integer"}, "action_exposed": {"type": "integer"}, "unsupported_committed_release": {"$ref": "#/$defs/rate"}, "supported_delivery": {"$ref": "#/$defs/rate"}, "protocol_correct_disposition": {"$ref": "#/$defs/rate"}, "runtime_seconds": {"$ref": "#/$defs/summary"}, "total_tokens": {"$ref": "#/$defs/summary"}}
+    }
+  }
+}
