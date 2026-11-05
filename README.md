@@ -1,5 +1,7 @@
 # Evidence-bound handoffs: offline research artifacts
 
+**Permanent archive:** [doi:10.5281/zenodo.23977097](https://doi.org/10.5281/zenodo.23977097), version 1.0.0. The immutable archive corresponds to tag `v1.0.0`. This repository landing page adds the DOI after deposit publication; the experimental files are unchanged, and the current public manifest records this documentation-only update.
+
 This **research artifact package** contains the independently authored experimental implementation, synthetic fixtures, frozen prompts, retained factual observations and controlled measurement-validation artifacts for a 28-session pilot and a 280-session diagnostic expansion. The non-model deterministic reference is separate from both participant phases. The later access study is deliberately not included. Publication status, version identifiers and archival identifiers are established by the hosting repository or deposit record, when one exists; exporting this package or running its scripts does not publish anything.
 
 No manuscript, reference-paper PDF, originating-project asset, patent, private parent repository, authentication material or original provider transcript is part of the intended payload. Read `RIGHTS.md` before redistributing anything. The copyright notice and limited scope of the study's existing MIT license are preserved in `LICENSE` and `experiments/LICENSE`.

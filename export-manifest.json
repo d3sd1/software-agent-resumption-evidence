@@ -53257,10 +53257,12 @@
     {
       "path": "README.md",
       "source_sha256": "81705180fb4653b7cbc214611e6ab59053c2cadbfd4914043019ceef81ce6dcb",
-      "export_sha256": "81705180fb4653b7cbc214611e6ab59053c2cadbfd4914043019ceef81ce6dcb",
-      "status": "new-release-tool",
+      "export_sha256": "6621fc8924a79dad7a75bdee36d212b59277d2af1c7f77cb3fe2f113f783bc23",
+      "status": "derived-documentation",
       "role": "owned-release-tool",
-      "rules": [],
+      "rules": [
+        "verified DOI landing link added after immutable archive publication"
+      ],
       "rights": "MIT for code; rights scope in RIGHTS.md"
     },
     {
@@ -59970,5 +59972,14 @@
   "deferred_phase": "access-study requires a NEW explicit rights/privacy inventory, preserved authors/licenses and separate authorization. Never append it through this allowlist.",
   "known_source_consistency_issue": "Historical stale aggregate corrected by coordinator; the exact stale backup and correction provenance remain in results/aggregate-history. Current aggregate must match current phase results and the recorded canonical hash.",
   "not_a_publication_or_rights_certificate": true,
-  "historical_audit_procedure": "The empirical audit uses the preserved previous-expanded-results frame, whose only difference from the current phase result is evaluated_at. This is verified before using it temporarily in a disposable copy. Current result bytes are restored immediately afterward. No observations or classifications are replaced."
+  "historical_audit_procedure": "The empirical audit uses the preserved previous-expanded-results frame, whose only difference from the current phase result is evaluated_at. This is verified before using it temporarily in a disposable copy. Current result bytes are restored immediately afterward. No observations or classifications are replaced.",
+  "post_archive_documentation": {
+    "changed_paths": [
+      "README.md"
+    ],
+    "archive_doi": "10.5281/zenodo.23977097",
+    "immutable_archive_tag": "v1.0.0",
+    "archive_manifest_sha256": "ad43abc34855628a40a6e4b9edd95ac9fb27a90706cc03648bcc477b078dadac",
+    "experimental_files_unchanged": true
+  }
 }
