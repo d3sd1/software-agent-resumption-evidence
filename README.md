@@ -30,6 +30,21 @@ The checkout provides the historical implementations/evaluators, separate correc
 
 The manifest's `full_archive_manifest_sha256` identifies the archive's **export manifest**, not its ZIP checksum. This repository README and the code manifest are checkout-specific documentation. No recursive wildcard selected code from participant workspaces or data snapshots. Some explicitly selected adapters/notices retain capsule-compatible paths; the original `.gitignore` excludes large capsule data, so maintainers must stage only the exact allowlisted files rather than recursively forcing the full tree.
 
+## Manuscript table presentation
+
+Source-code revision `v2.0.1` adds `experiments/access-analysis/format_publication_tables.py` after the immutable data archive was published. It is a presentation helper, not a change to the instrument, observations or primary endpoints. It renders explicit retrieval-call headings, byte-level descriptive contrasts and linked case contracts from the unchanged archived records. The original archived presentation remains available.
+
+From this source checkout, point the helper to the extracted v2 artifact and a new output directory:
+
+```sh
+ARCHIVE=/absolute/path/to/extracted/software-agent-resumption-evidence-v2.0.0
+python3 -I experiments/access-analysis/format_publication_tables.py \
+  --evaluation "$ARCHIVE/experiments/access-study/collections/cohort-001/evaluation-original.json" \
+  --output ./publication-tables-new
+```
+
+It uses the standard library, reads the archived case metadata beside that evaluation, and refuses an existing output directory. Its mean/SD presentation describes five order-paired blocks; it does not create matched provider randomness, population confidence intervals or new participant measurements. `code-manifest.json` identifies this added owned helper separately from files copied byte-identically from the archive.
+
 ## Outcomes, provenance and limits
 
 The 160-session follow-up contains supported completion in every condition, complete retrieval of all four documents, and no fresh recipient checks. Its interface-byte contrast is explained by serialization overhead and timing-string length, not a demonstrated advantage in release judgment. This does not establish equivalence, population safety, general repair ability or provider-authenticated model identity.

@@ -874,13 +874,22 @@
       "status": "copied-byte-identical"
     },
     {
-      "bytes": 5820,
+      "bytes": 7110,
       "path": "README.md",
       "role": "new-document",
-      "sha256": "b82c8552eafc49aa72ac581b3c9c88dc31a8c8a3328c43237e97764348f45f14",
+      "sha256": "cb2cf5678dc2831683c4ef17d08e04a209e20c3e75305981b10443999b0ebf3f",
       "source_archive_path": null,
       "source_archive_sha256": null,
       "status": "new-source-only-instructions"
+    },
+    {
+      "path": "experiments/access-analysis/format_publication_tables.py",
+      "bytes": 6270,
+      "sha256": "6c205686bad5081f0e3c0f1bce18d76aab4c46d4e11e72fc46a7dd4d9fe8e582",
+      "source_archive_path": null,
+      "source_archive_sha256": null,
+      "status": "new-post-archive-presentation-helper",
+      "role": "owned-formatting-only; unchanged archived observations"
     }
   ],
   "full_archive_manifest_sha256": "51ef83fa62796bf59353f7a1ef0465d11a7739c2410e52e97d86ca5614648281",
@@ -897,7 +906,8 @@
   "new_observations": false,
   "new_payload_files": [
     "README.md",
-    "code-manifest.json"
+    "code-manifest.json",
+    "experiments/access-analysis/format_publication_tables.py"
   ],
   "schema": "source-only-code-manifest-v1",
   "shared_adapter_note": "Exact frozen common adapter contains eight test classes/cases; only the four listed cases are part of the cohort. No reserve-case source trees are included. All relevant upstream notices remain applicable.",
@@ -1148,5 +1158,7 @@
       }
     }
   ],
-  "publication_status_policy": "Hosting record and Git commit establish publication; this manifest identifies code and the verified full archive."
+  "publication_status_policy": "Hosting record and Git commit establish publication; this manifest identifies code and the verified full archive.",
+  "code_revision": "v2.0.1",
+  "post_archive_change": "Presentation helper only; no instrument, observation, endpoint or archived byte changed."
 }
