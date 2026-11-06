@@ -1,0 +1,19 @@
+{
+  "input_files_rechecked": 10826,
+  "changed_original_inputs": [],
+  "all_inputs_unchanged": true,
+  "own_deliverable_hashes": {
+    "plan.json": "284662e800eb64185cb287567a53742ec88a1a9ccc96e6a506143c82b0160826",
+    "expectations.json": "5347c07dc93f9586f7c4e7dfa1fa5e86be0eed560c17fa7602cb8cd076c5b3a5",
+    "semantic-map.json": "e1aa49cc2385765b7f6055bde796d729f04bb90321cd5154567b8eb06c46c75d",
+    "report.txt": "2c8f6ef2bc1b83d599d26b5c4f1c46890ec32e1861775034ab466899569d90d9",
+    "scripts/run_followup.py": "d434718c7e0e253e1451eaace227893ed0c4536e9c4b8125088753e6da67f4ab",
+    "scripts/verify_outputs.py": "3f18e930a030f7e34c99826a28a04dce2b3de8227ee7059f3458528729b8e76a"
+  },
+  "participant_calls": 0,
+  "preflight": false,
+  "freeze": false,
+  "publication": false,
+  "latest_results": "run-003",
+  "verification": "output-verification-002.json"
+}

@@ -1,0 +1,22 @@
+{
+  "C_recipient_records": 160,
+  "C_three_indicator_agreements": 160,
+  "all_input_hashes_unchanged": true,
+  "expectation_mismatches": [],
+  "historical_controls_rerun": false,
+  "input_files_checked": 10826,
+  "kind": "post_review_bounded_diagnostic_analysis",
+  "limits": [
+    "Generic views, not competitor implementations",
+    "Deterministic witnesses, not new recipient evidence",
+    "Projection omission conditional on trusted current technical projection and stable exposed state",
+    "No optimality, broad transfer, new conceptual distinction or favorable empirical P effect established"
+  ],
+  "model_calls": 0,
+  "new_dependency_counterfactual_pairs": 1,
+  "new_exposed_information_witnesses": 32,
+  "new_semantic_finish_probes": 24,
+  "retained_B_control_pairs": 3,
+  "retained_C_control_rows": 96,
+  "runtime_seconds": 3.8557036939891987
+}

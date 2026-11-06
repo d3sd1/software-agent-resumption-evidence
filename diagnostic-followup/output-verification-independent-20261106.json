@@ -1,0 +1,79 @@
+{
+  "kind": "independent_output_consistency_checks_not_new_experiments",
+  "checks": [
+    {
+      "check": "Original input inventories exactly equal",
+      "passed": true
+    },
+    {
+      "check": "Pre-execution plan.json hash unchanged",
+      "passed": true
+    },
+    {
+      "check": "Pre-execution expectations.json hash unchanged",
+      "passed": true
+    },
+    {
+      "check": "Executed script hash current",
+      "passed": true
+    },
+    {
+      "check": "No expectation mismatches",
+      "passed": true
+    },
+    {
+      "check": "No model calls or old-control rerun",
+      "passed": true
+    },
+    {
+      "check": "96 separately labelled retained controls",
+      "passed": true
+    },
+    {
+      "check": "Restore counts extracted from original response ledger",
+      "passed": true
+    },
+    {
+      "check": "160 unique preserved recipient records",
+      "passed": true
+    },
+    {
+      "check": "160 indicator agreements, not identical observation views",
+      "passed": true
+    },
+    {
+      "check": "32 witnesses are separate and safe at observed boundaries",
+      "passed": true
+    },
+    {
+      "check": "All witnesses inspect authority and preservation",
+      "passed": true
+    },
+    {
+      "check": "Three controlled-view pair predictions retained",
+      "passed": true
+    },
+    {
+      "check": "Witness decision functions do not access hidden runtime/fixture/scorer APIs",
+      "passed": true
+    },
+    {
+      "check": "CSV row count retained-C-controls.csv",
+      "passed": true
+    },
+    {
+      "check": "CSV row count information-witnesses.csv",
+      "passed": true
+    },
+    {
+      "check": "CSV row count C-recipient-generic-views.csv",
+      "passed": true
+    },
+    {
+      "check": "CSV row count C-composite-semantics.csv",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "model_calls": 0
+}

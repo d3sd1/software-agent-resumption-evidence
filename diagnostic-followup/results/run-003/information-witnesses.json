@@ -1,0 +1,938 @@
+[
+  {
+    "actions": 5,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "packaging-sibling-errors",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/packaging-sibling-errors__R__G__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-f24cd266596ecb7a1d148c4ff5ece4b51814ace7883f401d982a6fae19268abb",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 27527,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 8,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "packaging-sibling-errors",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/packaging-sibling-errors__R__G__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-007-f24cd266596ecb7a1d148c4ff5ece4b51814ace7883f401d982a6fae19268abb",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 27527,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "packaging-sibling-errors",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/packaging-sibling-errors__R__P__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-f24cd266596ecb7a1d148c4ff5ece4b51814ace7883f401d982a6fae19268abb",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 27527,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 8,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "packaging-sibling-errors",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/packaging-sibling-errors__R__P__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-007-f24cd266596ecb7a1d148c4ff5ece4b51814ace7883f401d982a6fae19268abb",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 27527,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 4,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "packaging-sibling-errors",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/packaging-sibling-errors__U__G__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-003-4d208aa674cabc62ed72868cffc9be35659996c1ac7a90e6a5d9cea0f6bd7bd8",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 27529,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 7,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "packaging-sibling-errors",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/packaging-sibling-errors__U__G__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-006-4d208aa674cabc62ed72868cffc9be35659996c1ac7a90e6a5d9cea0f6bd7bd8",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 27529,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 4,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "packaging-sibling-errors",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/packaging-sibling-errors__U__P__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-003-4d208aa674cabc62ed72868cffc9be35659996c1ac7a90e6a5d9cea0f6bd7bd8",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Initial trusted current projection; not inferred permission or preservation",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": true
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 27529,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "packaging-sibling-errors",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/packaging-sibling-errors__U__P__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-4d208aa674cabc62ed72868cffc9be35659996c1ac7a90e6a5d9cea0f6bd7bd8",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json"
+      ],
+      "technical_basis": "Initial trusted current projection; not inferred permission or preservation",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": true
+    },
+    "regime": "distributed",
+    "retrieval_calls": 2,
+    "retrieval_document_bytes": 8975,
+    "retrieved_documents": 2,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-large-range",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-large-range__R__G__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-7c5d7033bf13e21feb82f06d3b9072e6739facb4cb85ace0570167f64a522ff0",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17111,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 8,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-large-range",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-large-range__R__G__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-007-7c5d7033bf13e21feb82f06d3b9072e6739facb4cb85ace0570167f64a522ff0",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 17111,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-large-range",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-large-range__R__P__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-7c5d7033bf13e21feb82f06d3b9072e6739facb4cb85ace0570167f64a522ff0",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17111,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 8,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-large-range",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-large-range__R__P__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-007-7c5d7033bf13e21feb82f06d3b9072e6739facb4cb85ace0570167f64a522ff0",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 17111,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 4,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-large-range",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-large-range__U__G__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-003-cc46380d2e648e484ca32d6ff29df5b0d43a4eed9992df63def90fb1a1ee01ad",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17113,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 7,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-large-range",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-large-range__U__G__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-006-cc46380d2e648e484ca32d6ff29df5b0d43a4eed9992df63def90fb1a1ee01ad",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 17113,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 4,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-large-range",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-large-range__U__P__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-003-cc46380d2e648e484ca32d6ff29df5b0d43a4eed9992df63def90fb1a1ee01ad",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Initial trusted current projection; not inferred permission or preservation",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": true
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17113,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-large-range",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-large-range__U__P__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-cc46380d2e648e484ca32d6ff29df5b0d43a4eed9992df63def90fb1a1ee01ad",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json"
+      ],
+      "technical_basis": "Initial trusted current projection; not inferred permission or preservation",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": true
+    },
+    "regime": "distributed",
+    "retrieval_calls": 2,
+    "retrieval_document_bytes": 3606,
+    "retrieved_documents": 2,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-peekable-slice",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-peekable-slice__R__G__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-4e269db573c6d05e18438571f58735fdc16b116f9ee38843034d0465cb81afcb",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17072,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 8,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-peekable-slice",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-peekable-slice__R__G__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-007-4e269db573c6d05e18438571f58735fdc16b116f9ee38843034d0465cb81afcb",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 17072,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-peekable-slice",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-peekable-slice__R__P__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-4e269db573c6d05e18438571f58735fdc16b116f9ee38843034d0465cb81afcb",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17072,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 8,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-peekable-slice",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-peekable-slice__R__P__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-007-4e269db573c6d05e18438571f58735fdc16b116f9ee38843034d0465cb81afcb",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 17072,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 4,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-peekable-slice",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-peekable-slice__U__G__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-003-d629981e6c9beabcd18c2699ae12a05dd192ce2b30dbd076b93b8e1c72f5cc93",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17074,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 7,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-peekable-slice",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-peekable-slice__U__G__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-006-d629981e6c9beabcd18c2699ae12a05dd192ce2b30dbd076b93b8e1c72f5cc93",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 17074,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 4,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-peekable-slice",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-peekable-slice__U__P__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-003-d629981e6c9beabcd18c2699ae12a05dd192ce2b30dbd076b93b8e1c72f5cc93",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Initial trusted current projection; not inferred permission or preservation",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": true
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17074,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "itertools-peekable-slice",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/itertools-peekable-slice__U__P__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-d629981e6c9beabcd18c2699ae12a05dd192ce2b30dbd076b93b8e1c72f5cc93",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json"
+      ],
+      "technical_basis": "Initial trusted current projection; not inferred permission or preservation",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": true
+    },
+    "regime": "distributed",
+    "retrieval_calls": 2,
+    "retrieval_document_bytes": 3609,
+    "retrieved_documents": 2,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "dotenv-backslashes",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/dotenv-backslashes__R__G__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-df8864b51c66fb4ddbca4187e83f415d1d0a71d7ff33d06070a610001d2eb830",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17530,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 8,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "dotenv-backslashes",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/dotenv-backslashes__R__G__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-007-df8864b51c66fb4ddbca4187e83f415d1d0a71d7ff33d06070a610001d2eb830",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 17530,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "dotenv-backslashes",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/dotenv-backslashes__R__P__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-df8864b51c66fb4ddbca4187e83f415d1d0a71d7ff33d06070a610001d2eb830",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17530,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 8,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "dotenv-backslashes",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/dotenv-backslashes__R__P__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-007-df8864b51c66fb4ddbca4187e83f415d1d0a71d7ff33d06070a610001d2eb830",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 17530,
+    "retrieved_documents": 4,
+    "state": "R",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 4,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "dotenv-backslashes",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/dotenv-backslashes__U__G__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-003-4c24de427b409ca8cbd2040f9320c1be5614c6bbfcdedbfa18496bd723aef982",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17532,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 7,
+    "arm": "G",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "dotenv-backslashes",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/dotenv-backslashes__U__G__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-006-4c24de427b409ca8cbd2040f9320c1be5614c6bbfcdedbfa18496bd723aef982",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json",
+        "history.json",
+        "dependencies.json"
+      ],
+      "technical_basis": "Complete visible historical record/current binding and identity, plus returned restoration manifest when needed",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": false
+    },
+    "regime": "distributed",
+    "retrieval_calls": 4,
+    "retrieval_document_bytes": 17532,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 4,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "dotenv-backslashes",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/dotenv-backslashes__U__P__bundled",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-003-4c24de427b409ca8cbd2040f9320c1be5614c6bbfcdedbfa18496bd723aef982",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "ALL"
+      ],
+      "technical_basis": "Initial trusted current projection; not inferred permission or preservation",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": true
+    },
+    "regime": "bundled",
+    "retrieval_calls": 1,
+    "retrieval_document_bytes": 17532,
+    "retrieved_documents": 4,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  },
+  {
+    "actions": 5,
+    "arm": "P",
+    "byte_boundary": "Local returned document bytes; not actual model supply or tokens",
+    "case": "dotenv-backslashes",
+    "checks": 0,
+    "not_a_recipient": true,
+    "path": "information-witnesses/dotenv-backslashes__U__P__distributed",
+    "proof": {
+      "authorization_from_contract": true,
+      "committed_identity_from_receipt": "release-004-4c24de427b409ca8cbd2040f9320c1be5614c6bbfcdedbfa18496bd723aef982",
+      "protection_from_contract_and_workspace": true,
+      "requested_documents": [
+        "contract.json",
+        "workspace.json"
+      ],
+      "technical_basis": "Initial trusted current projection; not inferred permission or preservation",
+      "trust": "Frozen tool contracts; initial current projection covers technical inputs only; no out-of-band mutation",
+      "trusted_projection": true
+    },
+    "regime": "distributed",
+    "retrieval_calls": 2,
+    "retrieval_document_bytes": 4026,
+    "retrieved_documents": 2,
+    "state": "U",
+    "success": true,
+    "unsupported_commits": 0,
+    "unsupported_requests": 0
+  }
+]

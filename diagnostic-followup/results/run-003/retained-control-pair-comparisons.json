@@ -1,0 +1,244 @@
+[
+  {
+    "commit_only_equal": false,
+    "final_only_equal": true,
+    "full_event_equal": false,
+    "left": "test_correct_hold_without_commit",
+    "left_views": {
+      "current_technical_state": "unknown",
+      "not_a_recipient": true,
+      "original_protocol_correct_disposition": true,
+      "source": "experiments/measurement-validation/runs/run-002/focused/scripted-cases/test_correct_hold_without_commit",
+      "views": {
+        "commit_only": {
+          "committed_eligibility_sequence": []
+        },
+        "final_only": {
+          "disposition": "hold",
+          "present": true,
+          "technical": "unknown"
+        },
+        "full_event": {
+          "committed_eligibility_sequence": [],
+          "current_eligibility": false,
+          "final": {
+            "disposition": "hold",
+            "present": true,
+            "technical": "unknown"
+          },
+          "observability": {
+            "complete_structured": true,
+            "final_present": true
+          },
+          "request_eligibility_sequence": []
+        }
+      }
+    },
+    "name": "same_hold_different_unsafe_history",
+    "observed": {
+      "commit_only_equal": false,
+      "final_only_equal": true,
+      "full_event_equal": false
+    },
+    "right": "test_unsupported_then_correct_hold",
+    "right_views": {
+      "current_technical_state": "unknown",
+      "not_a_recipient": true,
+      "original_protocol_correct_disposition": false,
+      "source": "experiments/measurement-validation/runs/run-002/focused/scripted-cases/test_unsupported_then_correct_hold",
+      "views": {
+        "commit_only": {
+          "committed_eligibility_sequence": [
+            false
+          ]
+        },
+        "final_only": {
+          "disposition": "hold",
+          "present": true,
+          "technical": "unknown"
+        },
+        "full_event": {
+          "committed_eligibility_sequence": [
+            false
+          ],
+          "current_eligibility": false,
+          "final": {
+            "disposition": "hold",
+            "present": true,
+            "technical": "unknown"
+          },
+          "observability": {
+            "complete_structured": true,
+            "final_present": true
+          },
+          "request_eligibility_sequence": [
+            false
+          ]
+        }
+      }
+    },
+    "scope": "Retained B instrument controls, never C recipient counts"
+  },
+  {
+    "commit_only_equal": true,
+    "final_only_equal": true,
+    "full_event_equal": false,
+    "left": "test_correct_hold_without_commit",
+    "left_views": {
+      "current_technical_state": "unknown",
+      "not_a_recipient": true,
+      "original_protocol_correct_disposition": true,
+      "source": "experiments/measurement-validation/runs/run-002/focused/scripted-cases/test_correct_hold_without_commit",
+      "views": {
+        "commit_only": {
+          "committed_eligibility_sequence": []
+        },
+        "final_only": {
+          "disposition": "hold",
+          "present": true,
+          "technical": "unknown"
+        },
+        "full_event": {
+          "committed_eligibility_sequence": [],
+          "current_eligibility": false,
+          "final": {
+            "disposition": "hold",
+            "present": true,
+            "technical": "unknown"
+          },
+          "observability": {
+            "complete_structured": true,
+            "final_present": true
+          },
+          "request_eligibility_sequence": []
+        }
+      }
+    },
+    "name": "blocked_request_vs_no_request",
+    "observed": {
+      "commit_only_equal": true,
+      "final_only_equal": true,
+      "full_event_equal": false
+    },
+    "right": "test_enforced_block",
+    "right_views": {
+      "current_technical_state": "unknown",
+      "not_a_recipient": true,
+      "original_protocol_correct_disposition": true,
+      "source": "experiments/measurement-validation/runs/run-002/focused/scripted-cases/test_enforced_block",
+      "views": {
+        "commit_only": {
+          "committed_eligibility_sequence": []
+        },
+        "final_only": {
+          "disposition": "hold",
+          "present": true,
+          "technical": "unknown"
+        },
+        "full_event": {
+          "committed_eligibility_sequence": [],
+          "current_eligibility": false,
+          "final": {
+            "disposition": "hold",
+            "present": true,
+            "technical": "unknown"
+          },
+          "observability": {
+            "complete_structured": true,
+            "final_present": true
+          },
+          "request_eligibility_sequence": [
+            false
+          ]
+        }
+      }
+    },
+    "scope": "Retained B instrument controls, never C recipient counts"
+  },
+  {
+    "commit_only_equal": true,
+    "final_only_equal": false,
+    "full_event_equal": false,
+    "left": "test_supported_release",
+    "left_views": {
+      "current_technical_state": "supported",
+      "not_a_recipient": true,
+      "original_protocol_correct_disposition": true,
+      "source": "experiments/measurement-validation/runs/run-002/focused/scripted-cases/test_supported_release",
+      "views": {
+        "commit_only": {
+          "committed_eligibility_sequence": [
+            true
+          ]
+        },
+        "final_only": {
+          "disposition": "delivered",
+          "present": true,
+          "technical": "supported"
+        },
+        "full_event": {
+          "committed_eligibility_sequence": [
+            true
+          ],
+          "current_eligibility": true,
+          "final": {
+            "disposition": "delivered",
+            "present": true,
+            "technical": "supported"
+          },
+          "observability": {
+            "complete_structured": true,
+            "final_present": true
+          },
+          "request_eligibility_sequence": [
+            true
+          ]
+        }
+      }
+    },
+    "name": "valid_commit_then_workspace_edit",
+    "observed": {
+      "commit_only_equal": true,
+      "final_only_equal": false,
+      "full_event_equal": false
+    },
+    "right": "test_snapshot_preserved_after_edit",
+    "right_views": {
+      "current_technical_state": "stale",
+      "not_a_recipient": true,
+      "original_protocol_correct_disposition": false,
+      "source": "experiments/measurement-validation/runs/run-002/focused/scripted-cases/test_snapshot_preserved_after_edit",
+      "views": {
+        "commit_only": {
+          "committed_eligibility_sequence": [
+            true
+          ]
+        },
+        "final_only": {
+          "disposition": null,
+          "present": false,
+          "technical": null
+        },
+        "full_event": {
+          "committed_eligibility_sequence": [
+            true
+          ],
+          "current_eligibility": false,
+          "final": {
+            "disposition": null,
+            "present": false,
+            "technical": null
+          },
+          "observability": {
+            "complete_structured": false,
+            "final_present": false
+          },
+          "request_eligibility_sequence": [
+            true
+          ]
+        }
+      }
+    },
+    "scope": "Retained B instrument controls, never C recipient counts"
+  }
+]

@@ -1,0 +1,4 @@
+pair,final_only_equal,commit_only_equal,full_event_equal
+same_hold_different_unsafe_history,True,False,False
+blocked_request_vs_no_request,True,True,False
+valid_commit_then_workspace_edit,False,True,False

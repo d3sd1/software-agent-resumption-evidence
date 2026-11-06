@@ -58,6 +58,12 @@ Set `ARCHIVE` to the extracted v2 package as above. The output must be new and o
 
 These checks authenticate neither withheld original text nor real argv/provider identity. Public seals establish integrity of the declared derivatives. The separate `audit_cohort.py` source documents the original-record audit; that broader audit also requires withheld raw streams and is **not** the public reproduction entry point. Neither audit is an independent research-team replication. The data archive and experiment instrument remain unchanged by these added audit sources.
 
+## Post-review diagnostic overlay (tag v2.1.0)
+
+`diagnostic-followup/` adds deterministic analyses performed after automated simulated critique: phase-specific field semantics, extraction of the 96 already executed phase-C feasibility controls, 24 final-field probes, 32 information-grounded witness paths, one logical counterfactual pair and generic reduced-view projections. It runs against the unchanged version 2.0.0 archive plus one added input whose hash the archived capsule manifest already declares. No new participant sessions were run and no archived observation changed.
+
+Read `diagnostic-followup/audit-addendum.md` before `report.txt`: the `full_event` key is an incomplete event summary, and the counterfactual keeps only a stated information subset identical. A recorded clean-copy reconstruction from the public ZIP reproduced all eight CSV outputs byte-for-byte. See `diagnostic-followup/README.md`.
+
 ## Outcomes, provenance and limits
 
 The 160-session follow-up contains supported completion in every condition, complete retrieval of all four documents, and no fresh recipient checks. Its interface-byte contrast is explained by serialization overhead and timing-string length, not a demonstrated advantage in release judgment. This does not establish equivalence, population safety, general repair ability or provider-authenticated model identity.

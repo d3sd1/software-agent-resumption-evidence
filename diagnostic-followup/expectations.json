@@ -1,0 +1,36 @@
+{
+  "declared_before_probes": true,
+  "derivation": "Manually specified from the written contracts and source-reviewed mutations; no expected value obtained by calling the scorer under test",
+  "C_semantics": {
+    "baseline_valid_U": {"technical_reconciliation": "supported", "gate_technical": "supported", "gate_allowed": true, "composite_eligibility": true, "expected_historical_finish_technical": "supported"},
+    "authorization_only_revoked": {"technical_reconciliation": "supported", "gate_technical": "supported", "gate_allowed": false, "composite_eligibility": false, "expected_historical_finish_technical": "unsupported"},
+    "protected_note_only_changed": {"technical_reconciliation": "supported", "gate_technical": "supported", "gate_allowed": false, "composite_eligibility": false, "expected_historical_finish_technical": "unsupported"}
+  },
+  "retained_controls": {
+    "reference": {"rows": 32, "success": true, "checks_per_path": 1, "actions_R_bundled": 6, "actions_R_distributed": 9, "actions_U_bundled": 5, "actions_U_distributed": 8},
+    "always_restore": {"rows": 32, "success": true, "actions_per_path": 3, "retrieval_calls": 0, "checks_per_path": 0},
+    "always_hold": {"rows": 32, "success": false, "missed_positive": true, "actions_per_path": 1, "retrieval_calls": 0, "checks_per_path": 0}
+  },
+  "retained_control_pairs": [
+    {"name": "same_hold_different_unsafe_history", "left": "test_correct_hold_without_commit", "right": "test_unsupported_then_correct_hold", "final_only_equal": true, "commit_only_equal": false, "full_event_equal": false},
+    {"name": "blocked_request_vs_no_request", "left": "test_correct_hold_without_commit", "right": "test_enforced_block", "final_only_equal": true, "commit_only_equal": true, "full_event_equal": false},
+    {"name": "valid_commit_then_workspace_edit", "left": "test_supported_release", "right": "test_snapshot_preserved_after_edit", "final_only_equal": false, "commit_only_equal": true, "full_event_equal": false}
+  ],
+  "recipient_comparison": {
+    "assigned": 160,
+    "expected_from_existing_reports_not_a_new_hypothesis": "All three generic positive-delivery indicators agree on the preserved C cohort. Report discrepancies if extraction finds any; do not tune views to force agreement."
+  },
+  "information_witness": {
+    "premise": "Trust the frozen current technical projection only for the technical applicability obligations it actually computes; always verify authorization and preservation from exposed contract/workspace. For G or non-supported projection, inspect all four documents and compare evidence identity/binding before any release request.",
+    "all_actual_cases_expected": {"success": true, "unsupported_requests": 0, "unsupported_commits": 0, "fresh_checks": 0},
+    "conditional_candidate_paths": {
+      "distributed_U_G": {"retrieval_calls": 4, "actions": 7},
+      "distributed_U_P": {"retrieval_calls": 2, "actions": 5},
+      "distributed_R_either": {"retrieval_calls": 4, "actions": 8},
+      "bundled_U_either": {"retrieval_calls": 1, "actions": 4},
+      "bundled_R_either": {"retrieval_calls": 1, "actions": 5}
+    },
+    "dependency_counterfactual": {"same_G_prompt": true, "same_contract_and_workspace": true, "current_binding_differs_from_retained_pass": true, "baseline_projection": "supported", "changed_binding_projection": "unknown", "changed_binding_release_eligible": false},
+    "failure_policy": "Record any unsatisfied obligation or mismatch; do not modify frozen sources or weakened expectations to obtain an advantage. Counts are conditional witness predictions, not optimality or empirical effects."
+  }
+}

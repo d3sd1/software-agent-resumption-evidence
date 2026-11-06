@@ -1,0 +1,69 @@
+{
+  "kind": "clean-copy reconstruction of post-review diagnostics from the public v2.0.0 archive",
+  "archive": {
+    "doi": "10.5281/zenodo.23981216",
+    "zip": "software-agent-resumption-evidence-v2.0.0.zip",
+    "zip_sha256": "e7ed0839e3d4347c9721ad477a0aa4e37cfda5f76cba94e8ece2c92317248f87"
+  },
+  "additional_input": {
+    "path": "inputs/retained-C-controls.json",
+    "sha256": "dfff8b06034417f1f6c470812445af93ec3e4b2501d0aae83ea8f2f2c95dc414",
+    "binding": "hash declared for local-validation.json in the archived capsule manifest; checked by the script"
+  },
+  "commands": [
+    "python3 -I -B scripts/run_followup.py --artifact <extracted-v2-root> --controls-receipt inputs/retained-C-controls.json --output run-cleanroom",
+    "python3 -I -B scripts/verify_outputs.py --results run-cleanroom --receipt verification-cleanroom.json"
+  ],
+  "csv_outputs": {
+    "C-composite-semantics.csv": {
+      "retained": "16aebbbf1aa6db0709297dedfe57a20a819e3a5b5dcd2d543fcd0ece799626ba",
+      "cleanroom": "16aebbbf1aa6db0709297dedfe57a20a819e3a5b5dcd2d543fcd0ece799626ba",
+      "identical": true
+    },
+    "C-recipient-generic-views.csv": {
+      "retained": "ed5215879ff34e0cf965e0d9097744707558318cb7e6fc917a889a1f61c47c48",
+      "cleanroom": "ed5215879ff34e0cf965e0d9097744707558318cb7e6fc917a889a1f61c47c48",
+      "identical": true
+    },
+    "information-obligations.csv": {
+      "retained": "45f75b24debdff72fd033499db6d2cca7d3acf77736be4b3a1049f3469fb5529",
+      "cleanroom": "45f75b24debdff72fd033499db6d2cca7d3acf77736be4b3a1049f3469fb5529",
+      "identical": true
+    },
+    "information-witnesses.csv": {
+      "retained": "23c85518d52116c277981d0e2df0791fc391168403750d8ba642c2e51dc683d2",
+      "cleanroom": "23c85518d52116c277981d0e2df0791fc391168403750d8ba642c2e51dc683d2",
+      "identical": true
+    },
+    "phase-field-semantics.csv": {
+      "retained": "cfb23a719c5d4f47f0dc2de4b48b209320a01f6bf0a7fcc64db54b3990f83311",
+      "cleanroom": "cfb23a719c5d4f47f0dc2de4b48b209320a01f6bf0a7fcc64db54b3990f83311",
+      "identical": true
+    },
+    "prompt-information-map.csv": {
+      "retained": "9bd527d4e594fdc80499af3e4f292fecfd75197399cd485f8244a3d624a15246",
+      "cleanroom": "9bd527d4e594fdc80499af3e4f292fecfd75197399cd485f8244a3d624a15246",
+      "identical": true
+    },
+    "retained-C-controls.csv": {
+      "retained": "945e190f42770213459e3931913230ecb19d1f3a4356b912bbc462080228cd1a",
+      "cleanroom": "945e190f42770213459e3931913230ecb19d1f3a4356b912bbc462080228cd1a",
+      "identical": true
+    },
+    "retained-control-pair-comparisons.csv": {
+      "retained": "bde130c43576d22a28716c3b7cc5328dbaaea01d62f865e2fb63133e553efc23",
+      "cleanroom": "bde130c43576d22a28716c3b7cc5328dbaaea01d62f865e2fb63133e553efc23",
+      "identical": true
+    }
+  },
+  "all_csv_identical": true,
+  "summary_differences": [
+    "runtime_seconds only"
+  ],
+  "expectation_mismatches": [],
+  "inputs_unchanged": true,
+  "input_files_checked": 10826,
+  "verifier": true,
+  "model_calls": 0,
+  "limits": "Verifier checks output consistency, not full plan conformance; read audit-addendum.md, which controls interpretation of the event summary and the counterfactual."
+}

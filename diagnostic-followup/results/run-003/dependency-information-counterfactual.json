@@ -1,0 +1,43 @@
+{
+  "arms": {
+    "G": {
+      "baseline_projection": {
+        "applicable_ids": [
+          "after"
+        ],
+        "conflict_rule": "Any applicable fail blocks; no last-writer or unrecorded conflict resolution",
+        "technical": "supported"
+      },
+      "baseline_prompt_sha256": "5a6e27a388c3faa2ac75d58ae149f829cb3b46b6da393accca01f6dec2b369fa",
+      "changed_eligibility": false,
+      "changed_projection": {
+        "applicable_ids": [],
+        "conflict_rule": "Any applicable fail blocks; no last-writer or unrecorded conflict resolution",
+        "technical": "unknown"
+      },
+      "changed_prompt_sha256": "5a6e27a388c3faa2ac75d58ae149f829cb3b46b6da393accca01f6dec2b369fa",
+      "same_initial_prompt": true
+    },
+    "P": {
+      "baseline_projection": {
+        "applicable_ids": [
+          "after"
+        ],
+        "conflict_rule": "Any applicable fail blocks; no last-writer or unrecorded conflict resolution",
+        "technical": "supported"
+      },
+      "baseline_prompt_sha256": "b55845104629ac3313bdf373ed994068eea52100371a100c25dda734e13b56fd",
+      "changed_eligibility": false,
+      "changed_projection": {
+        "applicable_ids": [],
+        "conflict_rule": "Any applicable fail blocks; no last-writer or unrecorded conflict resolution",
+        "technical": "unknown"
+      },
+      "changed_prompt_sha256": "d3748c4aeff3fb7bf28d5bf68b46fe49fed06bf698fa1f1be1d5e25449a54290",
+      "same_initial_prompt": false
+    }
+  },
+  "case": "packaging-sibling-errors",
+  "not_a_recipient": true,
+  "same_workspace_contract": true
+}

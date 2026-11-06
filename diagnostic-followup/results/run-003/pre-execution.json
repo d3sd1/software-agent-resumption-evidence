@@ -1,0 +1,8 @@
+{
+  "expectations_sha256": "5347c07dc93f9586f7c4e7dfa1fa5e86be0eed560c17fa7602cb8cd076c5b3a5",
+  "model_calls": 0,
+  "plan_sha256": "284662e800eb64185cb287567a53742ec88a1a9ccc96e6a506143c82b0160826",
+  "public_controls_rerun": false,
+  "script_sha256": "d434718c7e0e253e1451eaace227893ed0c4536e9c4b8125088753e6da67f4ab",
+  "started_at_unix": 1793925109.266087
+}
